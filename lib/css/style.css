@@ -1,0 +1,999 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('../../lib/css/reset.css');
+@import url('../../lib/css/fonts.css');                                 
+@import url('../../lib/css/isotope.css');
+
+h2 {font-family: akzidenz; color: #3A3F49; }
+
+body{
+	height: auto;
+	background-color: #FFF;  
+	
+}
+h4{
+	font-family:medium;
+	color: #6d6e71
+	}
+
+strong{font-family:medium;}
+
+#header {
+	width: 960px;
+	height: 50px;
+	margin: 0 auto 0 auto;	
+}
+.logo{
+	float: left;
+	height: 29px;
+	width: 161px;
+	margin-top: 10px;
+	position:relative;
+	z-index: 10;
+}
+#baner-color {
+    background-color: #3A3F49;
+    height: 350px;
+    width: 100%; 
+    float:left;
+}
+#top-menu li a:hover {
+	color: #4fe2ac;
+}
+#baner {
+	background-image: url(../../images/baner.jpg);
+	background-repeat: no-repeat;
+	height: 350px;
+	width: auto; /* bolo tu 1800px */
+	margin-right: auto;
+	margin-left: auto;
+	*position: absolute;
+}
+
+.banerGetFancy{
+  background: none repeat scroll 0 0 ;
+    clear: both;
+    margin: 0 auto;
+    width: 1080px;
+	position: relative;
+	
+	
+}
+.skaredaZena{
+   background: url("../../images/ohava.png") repeat scroll 0 0 transparent;
+    clear: both;
+float: left;
+height: 517px;
+left: 220px;
+position: relative;
+top: -37px;
+width: 194px;
+margin-bottom: -128px;
+
+}
+.peknaZena{
+    background: url("../../images/chick.png") repeat scroll 0 0 transparent;
+    float: left;
+    height: 385px;
+    left: -53px;
+    position: relative;
+    top: 350px;
+    width: 323px;
+	z-index: 1;
+}
+#referencesAndContactForm{
+    background: none repeat scroll 0 0 white;
+    clear: both;
+    height: auto;
+    margin: 0 auto;
+    width: 960px;
+    position: relative; 
+	/*padding-top: 40px; */
+	z-index:2;
+}                    
+.referencies2{
+    background: none repeat scroll 0 0 white;
+    height: 470px !important;
+    padding: 35px 0 0;
+    width: 1100px; 
+    float:left;
+}
+
+.reference{
+  	float:left;
+  	margin:10px;
+  	position: relative;
+}
+.topReferencies .reference{
+    margin-left:10px;
+}
+.topReferencies {
+  padding-left: 13px;
+  width:960px;
+}
+.referenciesMain {display: block; padding-bottom: 30px;}
+
+.topReferencies h3, .referenciesMain h3, .topReferencies2 h3, #sluzby h3 {
+font-size: 20px;
+margin: 0 auto 25px;
+clear: both;
+background: transparent url(../../images/line.gif) 0 center repeat-x;
+color: #3a3f49;
+text-align: center;
+font-family: akzidenz;
+width: 940px;
+}
+
+.topReferencies h3 span, .referenciesMain h3 span, h3 span, #sluzby h3 span{
+background: #fff;
+padding: 10px;
+}
+.referenciesMain img{
+  *float:none !important;
+}
+
+.referenciesMenu_sk li{
+	float: left;
+	font-family: light;
+	color: #6d6e71;
+	margin-left: 5x;
+	margin-right: 5px;
+	font-size: 14px;
+	cursor: pointer;
+	}
+	.referenciesMenu_sk li:hover{
+	color: #333333;	
+	}
+	
+.referenciesMenu_sk li:first-child {
+	margin-left: 0px;
+	display:block
+	}
+.referenciesMenu_en li{
+	float: left;
+	font-family: light;
+	color: #6d6e71;
+	margin-left: 5x;
+	margin-right: 5px;
+	font-size: 14px;
+	cursor: pointer;
+	}
+	.referenciesMenu_en li:hover{
+	color: #333333;	
+	}
+	
+.referenciesMenu_en li:first-child {
+	margin-left: 0px;
+	display:block
+	}
+.getFancy{
+  background: none repeat scroll 0 0 ;
+  height: 30px;
+  left: 1200px;
+  position: relative;
+  top: 100px;
+  width: 100px;
+}
+#getFancyText{
+/*background: url("../../images/main-text.png") repeat scroll 0 0 transparent;*/
+float: left;
+height: 189px;
+left: -50px;
+position: relative;
+top: 60px;
+width: 544px;
+position:relative
+}
+
+#getFancyText span{
+	position: absolute;
+	font-family: light;
+	color: white;
+	text-rendering: optimizelegibility;
+	}
+	
+#getFancyText .span1{	
+	top: -4px;
+	left:0px;
+	font-size: 83px;
+}
+
+#getFancyText .span2{	
+	top: 37px;
+font-size: 38px;
+left: 95px;
+}
+
+#getFancyText .span3{	
+	font-size: 27px;
+left: 149px;
+top: 47px;
+}
+
+#getFancyText .span4{	
+	font-size: 100px;
+left: 177px;
+top: -20px;
+letter-spacing: -2px;
+}
+
+#getFancyText .span5{	
+	top: 89px;
+font-size: 42px;
+left: 72px;
+}
+
+#getFancyText .span6{	
+	top: 98px;
+left: 167px;
+font-size: 32px;
+}
+
+#getFancyText .span7{	
+	top: 62px;
+left: 283px;
+font-size: 72px;
+}
+
+#getFancyText .span8{	
+	top: 137px;
+left: 147px;
+font-size: 50px;
+}
+#getFancyText .span9{	
+top: 154px;
+left: 257px;
+font-size: 30px;
+}
+
+#getFancyText .span1_en{	
+	font-size: 83px;
+    left: -5px;
+    top: -2px;
+}
+
+#getFancyText .span2_en{	
+font-size: 38px;
+left: 100px;
+top: 39px;
+}
+
+#getFancyText .span3_en{	
+font-size: 78px;
+left: 178px;
+top: 2px; 
+}
+
+#getFancyText .span4_en{	
+font-size: 55px;
+left: 67px;
+letter-spacing: -2px;
+top: 79px;
+}
+
+#getFancyText .span5_en{	
+font-size: 32px;
+left: 170px;
+top: 99px;
+}
+
+#getFancyText .span6_en{	
+font-size: 72px;
+left: 434px;
+top: 64px;
+}
+
+#getFancyText .span7_en{	
+font-size: 72px;
+    left: 328px;
+    top: 64px;
+	display:none
+}
+
+#getFancyText .span8_en{	
+font-size: 64px;
+left: 127px;
+top: 133px;
+}
+#getFancyText .span9_en{	
+font-size: 33px;
+left: 254px;
+top: 160px;
+}	
+.getFancyButtonBox{
+
+right: 139px;
+position: absolute;
+top: 280px;
+border-radius: 8px;
+-moz-border-radius: 8px;
+-webkit-border-radius: 8px;
+border: 4px solid #4fe2ac;
+padding: 7px 15px 7px 15px;
+text-rendering: optimizelegibility;
+font-family: light;
+width: auto;
+height: 20px;
+}
+.getFancyButton{
+  color: #4fe2ac;
+  height: 20px;
+  overflow: hidden;
+  display: block;
+}
+/* ----------------------------------------- lava lamp ------------------------------------------------------------------------- */
+.domov{
+width:55px;  
+}
+.onas{
+width:44px;
+}
+.services{
+width:56px;
+}
+.home{
+width:51px;
+}
+.portfolio{
+width:66px;  
+}
+.references{
+width:66px;    
+}
+.lavaLampBottomStyle {
+  position: relative;
+  height: 50px;
+  width: auto;
+  background-color: white;
+  overflow: hidden;  
+  display: inline;
+  float:right;
+}
+.lavaLampBottomStyle li {
+  float: left;
+  list-style: none;
+}
+.lavaLampBottomStyle li.back {
+  background-color: #4fe2ac;
+  height:6px;
+  z-index: 8;
+  position: absolute;
+  width:52px;
+}
+.lavaLampBottomStyle li a {
+  font-family: akzidenz;
+  font-size: 15px;
+  color: #3a3f49;
+  padding-top: 12px;
+  color: #3a3f49;
+  text-decoration: none;
+  float:left;
+  outline: none;
+  text-align: center;
+  top: 7px;
+  height:30px;
+  text-transform: uppercase;
+  letter-spacing: 0;
+  z-index: 10;
+  display: block;
+  position: relative;
+  overflow: hidden;
+  margin: auto 10px;
+  
+}   
+.lavaLampBottomStyle li a:hover, .lavaLampBottomStyle li a:active, .lavaLampBottomStyle li a:visited {
+  border: none;
+}  
+
+.onas {display: block;}
+						
+/* ----------------------------------------- lava lamp ------------------------------------------------------------------------- */
+
+
+/* ----------------------------------------- o nás ------------------------------------------------------------------------- */
+#sluzby {
+	
+	width: 940px;
+	height:auto;
+	background-color: white;
+	position: relative;
+	margin: 0 auto ;
+	z-index: 2;
+	padding-top: 20px;
+	padding-left: 10px;
+	}
+	
+	
+	
+#sluzby h1{
+	font-size: 34px;
+	font-family: bq-super;
+	color: #3b404a;
+	}
+
+#sluzby p{
+	font-size: 14px;
+margin-top: 10px;
+margin-bottom: 10px;
+font-family: light;
+color: #6d6e71;
+line-height: 21px;
+	}
+
+.wrap {
+	clear:both
+	}
+	
+.sluzby-content p{
+	float: right;
+	width: 640px;
+	}
+	
+.sluzby-content span{
+	font-family: medium;
+color: #3a3f49;
+font-size: 18px;
+margin-top: 12px;
+display: block;
+width: 244px;
+float: left;
+text-align: right;
+	}
+	
+.sluzby-content h4{
+
+	color: #3a3f49;
+font-size: 26px;
+margin-top: 40px;
+text-align: center;
+margin-bottom: 40px;
+	}
+	
+.sluzby-left {
+	width: 600px;
+float: right;
+margin-top: 15px;
+margin-right: -10px;
+margin-bottom: 25px;
+	
+	}
+
+
+.sluzby-box {
+	background-color: #F3F3F3;
+	float: left;
+	margin-bottom: 10px;
+	margin-right: 10px;
+	width: 290px;
+	padding-bottom: 5px;
+	
+	}
+	
+.sluzby-box h2 {
+	font-family: akzidenz;
+	color: #646464;
+	font-size: 2Opx !important;
+	margin-top: 5px;
+	margin-left: 10px;
+	margin-bottom: 5px;
+	}
+	
+.sluzby-box ul li {
+	font-family: light;
+	color: #646464;
+	font-size: 12px;
+	list-style-position: inside;
+	list-style-type: disc;	
+	margin-left: 20px;
+	}	
+	
+	.services-boxdesc{
+		display: block;
+		float: left;
+		width: 20%;	
+		margin-top: 40px;
+		margin-bottom: 40px;
+		}
+		
+		.services-boxdesc h6{
+		text-align: center;	
+		font-family: akzidenz;
+	color: #646464;
+	font-size: 26px !important;
+		}
+		
+		.services-boxdesc p{
+	text-align: center;
+color: #6D6E71;
+font-family: "akzidenz" !important;
+font-size: 16px !important;
+		} 
+		
+		#sluzby img {margin-top: 20px;}
+/* ----------------------------------------- end o nás ------------------------------------------------------------------------- */
+
+
+
+/*footer */
+
+#footer{
+	background-color: white;
+height: 45px;
+padding-bottom: 20px;
+padding-top: 50px;
+width: 940px;
+clear: both;
+margin: 0 auto;
+position: relative;
+z-index: 1;
+border-top: solid 1px #dfdfdf;
+}
+
+#footer #copyright a .footer_img {
+	float: right;
+}
+#footer #footertext {
+	float: right;
+	margin-right: 5px;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 10px;
+	padding-top: 1px;
+	color: #cccccc;
+	margin-top: 2px;
+}
+
+#socialmedia {
+ float: left;	
+ margin-top: -10px;
+}
+
+.tw-icon{
+	margin-left:10px;
+	margin-right:10px;
+}
+.tw-icon img, .fb-icon img, .li-icon img{
+	opacity: 0.35;
+	transition: opacity .35s ease-in-out;
+   -moz-transition: opacity .35s ease-in-out;
+   -webkit-transition: opacity .35s ease-in-out;
+}
+.tw-icon img:hover, .fb-icon img:hover, .li-icon img:hover{
+	opacity: 0.8;
+	transition: opacity .35s ease-in-out;
+   -moz-transition: opacity .35s ease-in-out;
+   -webkit-transition: opacity .35s ease-in-out;
+}
+
+/*footer */
+
+/*kontakt */
+
+.kontakt-text h2 {font-size: 28px}
+
+.kontakt-text {	
+	padding-left: 20px;
+	float:left;
+	width: 275px;
+}
+
+.kontakt-formular {
+	width: 450px;
+	float:right;
+	padding-right:20px;
+	margin-top: 10px;
+}
+.form_name,.form_phone, .form_email, .form_company{
+	color: #6D6E71;
+font-family: "light";
+font-size: 14px;
+width: 200px;
+height: 25px;
+float: right;
+background-attachment: fixed;
+background-repeat: no-repeat;
+border: 1px solid #d3d3d4;
+margin-bottom: 10px;
+padding-left: 10px;
+margin-left: 10px;
+padding-top: 7px\9;
+height: 20px\9;
+}
+/*.form_email{
+	color: #6D6E71;
+	font-family: "light";
+	font-size: 14px;
+	width: 200px;
+	height: 25px;
+	float: right;
+	background-repeat: no-repeat;
+	border: 1px solid #d3d3d4;
+	margin-bottom: 10px;
+	padding-left: 10px;
+}*/
+.form_text{
+	clear: both;
+	width: 414px;
+	height: 150px;
+	float: right;
+	border: 1px solid #d3d3d4;
+	color: #6D6E71;
+	font-family: "light";
+	font-size: 14px;
+	padding: 10px;
+	}
+
+.form_button{
+	border: none;
+clear: both;
+cursor: pointer;
+float: right;
+height: 40px;
+width: 135px;
+background-position: 0px 0px;
+font-family: light;
+font-size: 16px;
+background-color: #6d6e71;
+color: white;
+margin-top: 15px;
+margin-bottom: 30px;
+}
+.form_button:hover {
+	
+	background-color: #4fe2ac;
+	
+}
+
+.kontakt-text ul li {
+	font-family: light;
+	line-height: 35px;
+	color: #6d6e71;
+	list-style-position: inside;
+	list-style-type: disc;
+}
+
+.kontakt-text ul{
+	margin-top: 55px;
+}
+
+.kontakt-text img{
+	margin-top: 35px;
+	margin-left: 13px;
+}
+
+.field-desc {
+clear: both;
+color: #6D6E71;
+display: block;
+float: left;
+font-family: "light";
+font-size: 14px;
+margin-top: 6px;
+text-align: right;
+width: 220px;
+	}
+  
+/* referencie */
+.backToAll a{
+  text-decoration:  none;
+}
+.work_zoom{
+  background-image: url("/images/work_zoom.png");
+    background-position: center top;
+    background-repeat: no-repeat;
+    display: block;
+    height: 145px;
+    line-height: 145px;
+    position: absolute;
+    text-shadow: 0 -1px 0 #000000;
+    width: 220px;
+    z-index: 2;
+    top: 20px;
+    text-align: center;
+	
+	font-family: medium;
+  color: white;
+  font-size: 16px;
+  z-index: 20;
+  
+  margin-left: 10px;
+margin-top: -10px;
+
+}
+
+
+.reference .work_zoom{
+  left: -10px;
+  top: 10px;
+}
+.mask{
+  background-image: url("/images/work_mask.png");
+    background-position: center top;
+    background-repeat: no-repeat;
+    display: block;
+    height: 145px;
+    position: absolute;
+    top: 0;
+    width: 220px;
+    z-index: 1;
+}
+.referenceDetail{
+  background: none repeat scroll 0 0 white;
+  position: relative;
+  clear: both;
+  z-index: 2;
+  width: 960px;
+	margin: 0 auto;
+}
+.referenceImgAndDesc{
+  margin: 0 auto;
+  width: 960px;
+  position:relative;
+  height: 490px;
+  *margin-bottom:225px;
+}
+.referenceImgAndDesc .referenceImg{
+  float: left;
+  height: auto;
+  width: 960px; 
+  margin-top: 80px; 
+ 
+}
+.referenceImgAndDesc .referenceDesc{
+float: left;
+height: auto;
+position: absolute;
+right: -25px;
+bottom: 50px !important;
+width: 330px;;
+}
+
+
+
+.referenceDesc .link {
+	display: block;
+	margin-top: 10px;
+	font-family: light;
+	color: 3b404a;
+	font-size: 18px;
+	}
+
+.referenceImgAndDesc .referenceDesc h1{
+	font-size: 34px;
+	margin-top: 80px;
+	font-family: bq-super;
+	color: #3b404a;
+}
+.referenceImgAndDesc .referenceDesc p{
+	font-size: 16px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-family: light;
+	color: #6d6e71;
+}
+.referenceImgAndDesc .referenceDesc a {
+color: #3b404a;
+}
+
+.referenceImgAndDesc .referenceDesc h2{
+	font-size: 16px;
+	font-family: bq-super;
+	color: #bebec3;
+	margin-bottom: 15px;
+	display:block;
+}
+.referenceDesc h2{
+	font-size: 16px;
+	font-family: light;
+	color: #6d6e71;
+}
+.referenceDesc h3{
+  font-size: 15px;
+}
+.referenceDesc {
+  position: absolute !important;
+  bottom: 0px !important
+}
+.referenceDetail .referenceScreen{
+   display: block;
+  margin: 0px auto;
+  width: 800px;  
+  height: auto;
+}
+
+
+/* referencie */
+
+.referenciesMain{
+  background-color: white;
+  clear: both;
+  height: auto;
+  min-height: 400px;
+  margin: 0 auto;
+  position: relative;
+  width: 980px;
+  z-index: 2;
+  padding-top: 40px;
+}
+.referenciesMenu_sk{
+float: left;
+display: inline;
+margin-top: -18px;
+margin-left: 32%;
+margin-bottom: 10px;
+}
+.referenciesMenu_en{
+float: left;
+display: inline;
+margin-top: -18px;
+margin-left: 34%;
+margin-bottom: 10px;
+}
+.referencies {
+height: auto;
+    margin-left: 10px;
+    width: 960px;
+    clear: both;
+	margin-bottom: 15px;
+}
+.referencia img{
+      height: 145px;
+    margin: 10px;
+    width: 220px;
+    float:left;
+} 
+.click{
+	display: block;
+	float: left;
+	}
+ 
+.box-title {
+font-size: 30px;
+margin-bottom: 10px;
+}
+ 
+.box {
+color: #212121;
+padding: 15px;
+float: left;
+margin-left: 10px;
+margin-right: 10px;
+width: 250px;
+background: #ffffff;
+border: 2px solid #787878;
+margin-bottom: 20px;
+}
+#nav {
+float: left;
+margin-left: 20px;
+margin-top: 20px;
+position: fixed;
+}
+ 
+#nav a {
+text-decoration: none;
+font-size: 15px;
+line-height: 25px;
+color: #595959;
+}
+ 
+#nav a:hover {
+color: #393939;
+}
+ 
+#nav a:active {
+color: #151515;
+}
+
+/* -------------------------------kontakt ----------------------------------*/
+#contact{
+    background: none repeat scroll 0 0 white;
+    clear: both;
+    height: azti;
+    margin: 0 auto;
+    width: 980px;
+    position: relative; 
+	padding-top: 40px; 
+	z-index:2;
+}
+
+/* -------------------------------referencia dedail ----------------------------------*/
+.refs-nav{
+	position: absolute;
+	top: 600px;
+	z-index: 5;
+	width: 960px;
+	*right: 0;
+	}
+
+.all-btn, .prev-btn, .next-btn{
+	display: inline-block;
+	position: relative;
+	width: 58px;
+	height: 58px;
+	background-image: url(../../images/ref-nav.png);
+	background-repeat: no-repeat;
+	text-indent: -9999px;	
+}
+
+.scrollToTop{
+	clear: both;
+height: 70px;
+width: 71px;
+position: relative;
+
+background-attachment: scroll;
+background-image: url(../../images/ref-nav.png);
+background-repeat: repeat;
+background-position: -180px 0px;
+margin-right: auto;
+margin-bottom: 40px;
+margin-left: auto;
+cursor: pointer;
+margin-top: 15px;
+display: block
+	
+}
+
+.all-btn span, .prev-btn span, .next-btn span{
+	position: absolute;
+	top: 0; left: 0; bottom: 0; right: 0;
+	background: url(../../images/ref-nav.png) no-repeat;
+	
+}
+
+.all-btn { background-position: 0px 0px; float:left; *display:block}
+.all-btn span{ background-position: 0px -60px;}
+
+.prev-btn { background-position: -60px 0px; float:right; margin-right: 25px;}
+.prev-btn span{ background-position: -60px -60px;}
+
+.next-btn { background-position: -120px 0px; float: right;} 
+.next-btn span{ background-position: -120px -60px;}
+
+.scrollToTop span { 
+background-position: -180px -72px !important; 
+background: url(../../images/ref-nav.png) no-repeat;
+top: 0; left: 0; bottom: 0; right: 0;
+position:absolute
+}
+
+a img {
+border: none;
+}
+a{
+	text-decoration:none
+}	
+.fb-like{
+  float: right
+}
+#getFancyText{
+  animation-duration: 5s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+}
+
+.sluzby-content a{
+	font-family: medium;
+	color: #6d6e71;
+	text-decoration: underline;	
+	}
+	
+.email_send{
+font-family: medium;
+margin-left: 15px;
+margin-bottom: 15px;
+color: #4fe2ac;
+}
+.hide{
+  display:none;
+}
+.langSwitch{
+  display: block;
+    float: left;
+    left: 460px;
+    position: relative;
+top: 18px;
+font-family: light;
+font-size: 14px;
+    color: #3a3f49;
+}

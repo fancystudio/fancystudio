@@ -1,0 +1,105 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>LayerSlider - a jQuery multi-layer parallax image slider from Kreatura Media</title>
+		<link rel="stylesheet" href="css/page.css" type="text/css" media="screen">
+		<link rel="stylesheet" href="css/layerslider.css" type="text/css" media="screen">
+		<link rel="stylesheet" href="static/layerslider/skins/defaultskin/skin.css" type="text/css" media="screen">
+		<noscript>
+			<link rel="stylesheet" href="/static/css/noscript.css" type="text/css" media="screen">
+		</noscript>
+		<!--[if IE 7]>
+			<link rel="stylesheet" href="/static/css/ie7.css" type="text/css" media="screen">
+		<![endif]-->
+		<!--[if lt IE 9]>
+			<script src="/static/js/html5.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+		<div id="statusbar"></div>
+		<div id="dim">
+
+			<div id="layerslider">
+
+				<div class="ls-layer" style="slidedelay: 3000">
+					<img class="ls-bg" src="gallery/l1.jpg" alt="layer">
+					<img class="ls-s2" src="gallery/l11.png" alt="sublayer" style="durationin: 2000; easingin: easeOutElastic">
+					<img class="ls-s3" src="gallery/l12.png" alt="sublayer" style="durationin: 2300; easingin: easeOutElastic">
+					<img id="leaf1" class="ls-s4" src="gallery/l13.png" alt="sublayer">
+					<img class="ls-s5" src="gallery/l15.png" alt="sublayer">
+					<img class="ls-s6" src="gallery/l14.png" alt="sublayer">
+					<img id="leaf2" class="ls-s7" src="gallery/l16.png" alt="sublayer">
+					<img id="leaf3" class="ls-s2" src="gallery/l17.png" alt="sublayer">
+				</div>
+
+				<div class="ls-layer">
+					<img class="ls-bg" src="gallery/l3.jpg" alt="layer">
+					<img class="ls-s2" src="gallery/l31.png" alt="sublayer" style="durationin: 5800; easingin: easeOutQuad">
+					<img class="ls-s3" src="gallery/l32.png" alt="sublayer" style="durationin: 5600; easingin: easeOutQuad">
+					<img class="ls-s5" src="gallery/l33.png" alt="sublayer" style="durationin: 1200">
+					<img class="ls-s5" src="gallery/l34.png" alt="sublayer" style="durationin: 1350">
+					<img class="ls-s6" src="gallery/l36.png" alt="sublayer" style="durationin: 4000; easingin: easeOutExpo; durationout: 800; delayout: 50">
+					<img class="ls-s7" src="gallery/l35.png" alt="sublayer" style="durationin: 5000; easingin: easeOutExpo; durationout: 800; delayout: 100">
+					<img class="ls-s8" src="gallery/l37.png" alt="sublayer">
+					<img class="ls-s9" src="gallery/l38.png" alt="sublayer">
+					<img class="ls-s10" src="gallery/l39.png" alt="sublayer">
+					<img class="ls-s11" src="gallery/l310.png" alt="sublayer">
+					<img class="ls-s12" src="gallery/l311.png" alt="sublayer">
+				</div>
+
+				<div class="ls-layer" style="slidedirection: top; slidedelay: 6000">
+					<img class="ls-bg" src="gallery/l2.jpg" alt="layer">
+					<img id="clouds" class="ls-s2" src="gallery/l21.png" alt="sublayer">
+					<img class="ls-s3" src="gallery/l22.png" alt="sublayer">
+					<img class="ls-s4" src="gallery/l23.png" alt="sublayer">
+					<img class="ls-s5" src="gallery/l24.png" alt="sublayer">
+					<img class="ls-s6" src="gallery/l25.png" alt="sublayer">
+					<img class="ls-s7" src="gallery/l26.png" alt="sublayer">
+					<img class="ls-s8" src="gallery/l27.png" alt="sublayer">
+					<img class="ls-s9" src="gallery/l28.png" alt="sublayer">
+					<img class="ls-s10" src="gallery/l29.png" alt="sublayer" style="durationin: 1000; easingin: easeOutExpo; delayin: 400; delayout: 50">
+				</div>
+
+				<div class="ls-layer">
+
+					<img class="ls-bg" src="gallery/l4.jpg" alt="layer">
+					<img class="ls-s6" src="gallery/l45.png" alt="sublayer" style="durationin: 6000; easingin: easeOutQuart">
+					<img class="ls-s5" src="gallery/l44.png" alt="sublayer" style="durationin: 3000; easingin: easeOutExpo">
+					<img class="ls-s2" src="gallery/l41.png" alt="sublayer" style="delayin: 1400; easingin: easeOutBack">
+					<img class="ls-s3" src="gallery/l42.png" alt="sublayer" style="delayin: 1400; easingin: easeOutBack">
+					<img class="ls-s4" src="gallery/l43.png" alt="sublayer" style="delayin: 1400; easingin: easeOutBack">
+				</div>
+				
+				<div class="ls-layer">
+					<img class="ls-bg" src="gallery/l5.jpg" alt="layer">
+					<img id="earth" class="ls-s3" src="gallery/l51.jpg" alt="sublayer">
+					<img class="ls-s4" src="gallery/l52.png" alt="sublayer">
+					<img class="ls-s6" src="gallery/l53.png" alt="sublayer">
+					<img class="ls-s8" src="gallery/l54.png" alt="sublayer">
+					<p id="l5text1" class="ls-s12">
+						2003 UB <span class="small">313</span>
+					</p>
+					<p id="l5text2" class="ls-s14">
+						Charon
+					</p>
+					<p id="l5text3" class="ls-s16">
+						Ceres
+					</p>
+					<p id="l5text4" class="ls-s8">
+						This is <a target="_blank" href="http://en.wikipedia.org/wiki/Charon_(moon)">an external link</a> to Wikipedia.
+					</p>
+				</div>
+
+			</div>
+
+			<div class="leaves" id="le1"></div>
+			<div class="leaves" id="le2"></div>
+			<div class="leaves" id="le3"></div>
+		</div>
+		<script src="static/js/jquery.js" type="text/javascript"></script>
+		<script src="static/js/jqueryui.js" type="text/javascript"></script>
+		<script src="static/js/plugins.js" type="text/javascript"></script>
+		<script src="static/layerslider/js/page.js" type="text/javascript"></script>
+		<script src="static/layerslider/js/layerslider.kreaturamedia.jquery.js" type="text/javascript"></script>
+	</body>
+</html>

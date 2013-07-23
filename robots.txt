@@ -1,0 +1,9 @@
+Sitemap: http://www.fancystudio.sk/sitemap.xml
+User-agent: *
+Disallow: http://www.fancystudio.sk/contrib/
+Disallow: http://www.fancystudio.sk/doc/
+Disallow: http://www.fancystudio.sk/lib/
+Disallow: http://www.fancystudio.sk/modules/
+Disallow: http://www.fancystudio.sk/plugins/
+Disallow: http://www.fancystudio.sk/scripts/
+Disallow: http://www.fancystudio.sk/tmp/

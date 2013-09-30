@@ -4,7 +4,7 @@
 <script type="text/javascript" src="lib/js/referencie.js"></script>
 <div id="referencesAndContactForm">
 <div class="slider"><div> {kontakt} </div> <div style="padding-top: 0px; display: block;">
-<div class="referenciesMain">
+<div class="referenciesMain container">
 <h3><span>{MleCMS name="snippet_referencie"}</span></h3>
    	{MleCMS name="block_referencieMenu"}
   <div class="referencies">   

@@ -21,7 +21,7 @@ $lang_parent = $smarty->get_template_vars('lang_parent');
 <div class="form_top_references_help hide"><?= (($lang_parent == "sk") ? 'zobraziť top referencie' : 'show top references') ?></div>
 <div class="form_back_reference_help hide"><?= (($lang_parent == "sk") ? 'späť na referencie' : 'back to references') ?></div>
 
-<div id="contact">    
+<div id="contact" class="container">    
 <div class="topReferencies2">
 <h3><span><?= (($lang_parent == "sk") ? 'kontakt' : 'contact') ?></span></h3>
 <div style="clear: both; height:5px"></div>

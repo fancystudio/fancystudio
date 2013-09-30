@@ -19,7 +19,6 @@ h4{
 strong{font-family:medium;}
 
 #header {
-	width: 960px;
 	height: 50px;
 	margin: 0 auto 0 auto;	
 }
@@ -86,7 +85,6 @@ margin-bottom: -128px;
     clear: both;
     height: auto;
     margin: 0 auto;
-    width: 960px;
     position: relative; 
 	/*padding-top: 40px; */
 	z-index:2;
@@ -109,7 +107,6 @@ margin-bottom: -128px;
 }
 .topReferencies {
   padding-left: 13px;
-  width:960px;
 }
 .referenciesMain {display: block; padding-bottom: 30px;}
 
@@ -121,7 +118,6 @@ background: transparent url(../../images/line.gif) 0 center repeat-x;
 color: #3a3f49;
 text-align: center;
 font-family: akzidenz;
-width: 940px;
 }
 
 .topReferencies h3 span, .referenciesMain h3 span, h3 span, #sluzby h3 span{
@@ -521,7 +517,6 @@ font-size: 16px !important;
 height: 45px;
 padding-bottom: 20px;
 padding-top: 50px;
-width: 940px;
 clear: both;
 margin: 0 auto;
 position: relative;

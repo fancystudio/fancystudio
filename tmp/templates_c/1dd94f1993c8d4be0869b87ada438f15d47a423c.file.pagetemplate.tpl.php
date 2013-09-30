@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.12, created on 2013-09-30 21:47:33
+<?php /* Smarty version Smarty-3.1.12, created on 2013-09-30 22:00:39
          compiled from "/Applications/MAMP/htdocs/fancystudio/admin/themes/OneEleven/templates/pagetemplate.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:18627854645249d555b08419-60188134%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:15228060235249d867b49f46-34962890%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '18627854645249d555b08419-60188134',
+  'nocache_hash' => '15228060235249d867b49f46-34962890',
   'function' => 
   array (
   ),
@@ -38,9 +38,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.12',
-  'unifunc' => 'content_5249d555c98f59_96529167',
+  'unifunc' => 'content_5249d867ceaaf3_33513799',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5249d555c98f59_96529167')) {function content_5249d555c98f59_96529167($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_truncate')) include '/Applications/MAMP/htdocs/fancystudio/lib/smarty/plugins/modifier.truncate.php';
+<?php if ($_valid && !is_callable('content_5249d867ceaaf3_33513799')) {function content_5249d867ceaaf3_33513799($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_truncate')) include '/Applications/MAMP/htdocs/fancystudio/lib/smarty/plugins/modifier.truncate.php';
 if (!is_callable('smarty_function_sitename')) include '/Applications/MAMP/htdocs/fancystudio/plugins/function.sitename.php';
 if (!is_callable('smarty_function_cms_jquery')) include '/Applications/MAMP/htdocs/fancystudio/plugins/function.cms_jquery.php';
 if (!is_callable('smarty_cms_function_module_available')) include '/Applications/MAMP/htdocs/fancystudio/plugins/function.module_available.php';

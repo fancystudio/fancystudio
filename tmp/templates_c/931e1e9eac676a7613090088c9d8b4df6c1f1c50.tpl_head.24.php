@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.12, created on 2013-09-30 21:54:20
+<?php /* Smarty version Smarty-3.1.12, created on 2013-09-30 22:03:35
          compiled from "tpl_head:24" */ ?>
 <?php /*%%SmartyHeaderCode:121715018551eec82b1517d0-46873794%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '931e1e9eac676a7613090088c9d8b4df6c1f1c50' => 
     array (
       0 => 'tpl_head:24',
-      1 => 1380570854,
+      1 => 1380571412,
       2 => 'tpl_head',
     ),
   ),
@@ -26,8 +26,8 @@ if (!is_callable('smarty_function_root_url')) include '/Applications/MAMP/htdocs
 
 <link rel="shortcut icon" type="image/x-icon" href="../../favicon.ico" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<!--<link href="<?php echo smarty_function_root_url(array(),$_smarty_tpl);?>
-/lib/css/style.css" rel="stylesheet" type="text/css" />-->
+<link href="<?php echo smarty_function_root_url(array(),$_smarty_tpl);?>
+/lib/css/style.css" rel="stylesheet" type="text/css" />
 <link href="<?php echo smarty_function_root_url(array(),$_smarty_tpl);?>
 /css/bootstrap.css" rel="stylesheet" type="text/css" />
 <script type="text/javascript" src="<?php echo smarty_function_root_url(array(),$_smarty_tpl);?>

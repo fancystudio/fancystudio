@@ -1,31 +1,59 @@
-<?php /* Smarty version Smarty-3.1.12, created on 2013-09-30 21:52:02
-         compiled from "tpl_body:24" */ ?>
-<?php /*%%SmartyHeaderCode:44315825551eec82a41d234-51628014%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /* Smarty version Smarty-3.1.12, created on 2013-09-30 21:50:57
+         compiled from "template:appdata;tmp_template" */ ?>
+<?php /*%%SmartyHeaderCode:7495015355249d621b1f117-68102564%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
-    'ad83cfdd496e0d74150f5e8179bf0ea1e88e3ac2' => 
+    'dd10a1840f43813cd647195dd79bd3add047c6e9' => 
     array (
-      0 => 'tpl_body:24',
-      1 => 1380570716,
-      2 => 'tpl_body',
+      0 => 'template:appdata;tmp_template',
+      1 => 1380570657,
+      2 => 'template',
     ),
   ),
-  'nocache_hash' => '44315825551eec82a41d234-51628014',
+  'nocache_hash' => '7495015355249d621b1f117-68102564',
   'function' => 
   array (
   ),
-  'version' => 'Smarty-3.1.12',
-  'unifunc' => 'content_51eec82a463c32_28549740',
   'variables' => 
   array (
     'lang_parent' => 0,
     'lang_locale' => 0,
   ),
   'has_nocache_code' => false,
+  'version' => 'Smarty-3.1.12',
+  'unifunc' => 'content_5249d621bde8f1_51217987',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_51eec82a463c32_28549740')) {function content_51eec82a463c32_28549740($_smarty_tpl) {?><?php if (!is_callable('smarty_function_root_url')) include '/Applications/MAMP/htdocs/fancystudio/plugins/function.root_url.php';
-?>
+<?php if ($_valid && !is_callable('content_5249d621bde8f1_51217987')) {function content_5249d621bde8f1_51217987($_smarty_tpl) {?>
+<!DOCTYPE HTML>
+<meta name="viewport" content="initial-scale=0.2, maximum-scale=0.1">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" >
+<head>
+
+<link rel="shortcut icon" type="image/x-icon" href="../../favicon.ico" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!--<link href="/lib/css/style.css" rel="stylesheet" type="text/css" />-->
+<link href="<?php echo smarty_function_root_url(array(),$_smarty_tpl);?>
+/css/bootstrap.css.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="<?php echo smarty_function_root_url(array(),$_smarty_tpl);?>
+/js/bootstrap.js"></script>   
+<script type="text/javascript" src="<?php echo smarty_function_root_url(array(),$_smarty_tpl);?>
+/lib/js/jquery/jquery-1.8.2.min.js"></script>                                                                      
+<script type="text/javascript" src="<?php echo smarty_function_root_url(array(),$_smarty_tpl);?>
+/lib/js/jquery/jquery.lavalamp.min.js"></script>
+<script type="text/javascript" src="<?php echo smarty_function_root_url(array(),$_smarty_tpl);?>
+/lib/js/jquery/jquery.easing.1.3.js"></script>                                                                     
+<script type="text/javascript" src="<?php echo smarty_function_root_url(array(),$_smarty_tpl);?>
+/lib/js/jquery/jquery.easing.compatibility.js"></script>
+<script type="text/javascript" src="<?php echo smarty_function_root_url(array(),$_smarty_tpl);?>
+/lib/js/jquery/jquery-cookie-master/jquery.cookie.js"></script>
+
+<!--[if lt IE 8]>
+<script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE8.js"></script>
+<![endif]-->
+
+</head>
 <body>
 <div id="header">
 <a href="<?php echo smarty_function_root_url(array(),$_smarty_tpl);?>
@@ -33,7 +61,6 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   <img src="<?php echo smarty_function_root_url(array(),$_smarty_tpl);?>
 /images/logo.png" alt="fancystudio" width="161" height="29" />
 </a>
-<?php echo MleCMS::function_plugin(array('action'=>"langs"),$_smarty_tpl);?>
 
 <?php echo MenuManager::function_plugin(array('template'=>'menu2','childrenof'=>$_smarty_tpl->tpl_vars['lang_parent']->value,'lang'=>$_smarty_tpl->tpl_vars['lang_locale']->value),$_smarty_tpl);?>
 
@@ -42,11 +69,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   <div class="banerGetFancy"> 
       <div class="skaredaZena"></div>
       <div class="peknaZena"></div>
-           <?php echo MleCMS::function_plugin(array('name'=>"block_uvodnyText"),$_smarty_tpl);?>
-
+           
      <div class="getFancyButtonBox">
-      <a href="javascript:void(0)" class="getFancyButton contactIsSet">     <?php echo MleCMS::function_plugin(array('name'=>"snippet_chcemFancy"),$_smarty_tpl);?>
-</a>
+      <a href="javascript:void(0)" class="getFancyButton contactIsSet">     </a>
       </div>
     </div><!-- end baner--> 
 	<div id="baner"> 
@@ -54,7 +79,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 	</div><!-- end baner--> 
     
 	</div><!-- end baner-color --> 
-<?php CMS_Content_Block::smarty_internal_fetch_contentblock(array(),$_smarty_tpl); ?>
+
 <div id="footer">
 <div id="socialmedia"><a class="fb-icon" href="#"><img src="<?php echo smarty_function_root_url(array(),$_smarty_tpl);?>
 /images/fb-icon.jpg" alt="" /></a> <a class="tw-icon" target="_blank" href="https://twitter.com/fancy_studio"><img src="<?php echo smarty_function_root_url(array(),$_smarty_tpl);?>

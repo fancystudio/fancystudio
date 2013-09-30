@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.12, created on 2013-07-22 21:37:33
-         compiled from "C:\wamp\www\fancystudio\admin\themes\OneEleven\templates\shortcuts.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:311751ed89fd577653-15505908%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /* Smarty version Smarty-3.1.12, created on 2013-07-23 20:14:06
+         compiled from "/Applications/MAMP/htdocs/fancystudio/admin/themes/OneEleven/templates/shortcuts.tpl" */ ?>
+<?php /*%%SmartyHeaderCode:48703627051eec7ee0750b9-15107247%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
-    '14e3fbe65045c8d17cf8911a73578fa77e599ea3' => 
+    'afe5ecb23ffd863b64589edceeb1483062e4dea8' => 
     array (
-      0 => 'C:\\wamp\\www\\fancystudio\\admin\\themes\\OneEleven\\templates\\shortcuts.tpl',
+      0 => '/Applications/MAMP/htdocs/fancystudio/admin/themes/OneEleven/templates/shortcuts.tpl',
       1 => 1374437902,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '311751ed89fd577653-15505908',
+  'nocache_hash' => '48703627051eec7ee0750b9-15107247',
   'function' => 
   array (
   ),
@@ -24,9 +24,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.12',
-  'unifunc' => 'content_51ed89fd69c857_36045943',
+  'unifunc' => 'content_51eec7ee155992_94027837',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_51ed89fd69c857_36045943')) {function content_51ed89fd69c857_36045943($_smarty_tpl) {?><?php if (!is_callable('smarty_function_root_url')) include 'C:\\wamp\\www\\fancystudio\\plugins\\function.root_url.php';
+<?php if ($_valid && !is_callable('content_51eec7ee155992_94027837')) {function content_51eec7ee155992_94027837($_smarty_tpl) {?><?php if (!is_callable('smarty_function_root_url')) include '/Applications/MAMP/htdocs/fancystudio/plugins/function.root_url.php';
 ?><div class="shortcuts"><ul class="cf"><!-- <li class="help"><?php if (isset($_smarty_tpl->tpl_vars['module_help_url']->value)){?><a href="<?php echo $_smarty_tpl->tpl_vars['module_help_url']->value;?>
 " title="<?php echo lang('module_help');?>
 "><?php echo lang('module_help');?>

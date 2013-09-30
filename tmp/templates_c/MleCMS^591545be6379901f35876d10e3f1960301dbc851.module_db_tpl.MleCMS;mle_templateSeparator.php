@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.12, created on 2013-07-22 21:37:16
+<?php /* Smarty version Smarty-3.1.12, created on 2013-07-23 20:15:06
          compiled from "module_db_tpl:MleCMS;mle_templateSeparator" */ ?>
-<?php /*%%SmartyHeaderCode:2582351ed89eceebd21-93835966%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:141697287351eec82a5206a9-31484534%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'module_db_tpl',
     ),
   ),
-  'nocache_hash' => '2582351ed89eceebd21-93835966',
+  'nocache_hash' => '141697287351eec82a5206a9-31484534',
   'function' => 
   array (
   ),
@@ -25,9 +25,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.12',
-  'unifunc' => 'content_51ed89ed03d8f9_17996685',
+  'unifunc' => 'content_51eec82a597d57_52760745',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_51ed89ed03d8f9_17996685')) {function content_51ed89ed03d8f9_17996685($_smarty_tpl) {?><?php if (!is_callable('smarty_function_cms_selflink')) include 'C:\\wamp\\www\\fancystudio\\plugins\\function.cms_selflink.php';
+<?php if ($_valid && !is_callable('content_51eec82a597d57_52760745')) {function content_51eec82a597d57_52760745($_smarty_tpl) {?><?php if (!is_callable('smarty_function_cms_selflink')) include '/Applications/MAMP/htdocs/fancystudio/plugins/function.cms_selflink.php';
 ?><?php if ($_smarty_tpl->tpl_vars['langs_count']->value){?>
     <?php  $_smarty_tpl->tpl_vars['l'] = new Smarty_Variable; $_smarty_tpl->tpl_vars['l']->_loop = false;
  $_from = $_smarty_tpl->tpl_vars['langs']->value; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array');}

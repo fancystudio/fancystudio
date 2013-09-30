@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.12, created on 2013-07-22 21:37:33
-         compiled from "C:\wamp\www\fancystudio\admin\themes\OneEleven\templates\pagetemplate.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:725551ed89fd1bc821-33259807%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /* Smarty version Smarty-3.1.12, created on 2013-07-23 20:14:05
+         compiled from "/Applications/MAMP/htdocs/fancystudio/admin/themes/OneEleven/templates/pagetemplate.tpl" */ ?>
+<?php /*%%SmartyHeaderCode:136082327251eec7edd41487-24099516%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
-    '2391ae5a589cb2458b4369f57d4d77de12d5bd79' => 
+    '1dd94f1993c8d4be0869b87ada438f15d47a423c' => 
     array (
-      0 => 'C:\\wamp\\www\\fancystudio\\admin\\themes\\OneEleven\\templates\\pagetemplate.tpl',
+      0 => '/Applications/MAMP/htdocs/fancystudio/admin/themes/OneEleven/templates/pagetemplate.tpl',
       1 => 1374437902,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '725551ed89fd1bc821-33259807',
+  'nocache_hash' => '136082327251eec7edd41487-24099516',
   'function' => 
   array (
   ),
@@ -38,13 +38,13 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.12',
-  'unifunc' => 'content_51ed89fd45cb48_46982015',
+  'unifunc' => 'content_51eec7edf166d0_96976557',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_51ed89fd45cb48_46982015')) {function content_51ed89fd45cb48_46982015($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_truncate')) include 'C:\\wamp\\www\\fancystudio\\lib\\smarty\\plugins\\modifier.truncate.php';
-if (!is_callable('smarty_function_sitename')) include 'C:\\wamp\\www\\fancystudio\\plugins\\function.sitename.php';
-if (!is_callable('smarty_function_cms_jquery')) include 'C:\\wamp\\www\\fancystudio\\plugins\\function.cms_jquery.php';
-if (!is_callable('smarty_cms_function_module_available')) include 'C:\\wamp\\www\\fancystudio\\plugins\\function.module_available.php';
-if (!is_callable('smarty_function_cms_module')) include 'C:\\wamp\\www\\fancystudio\\plugins\\function.cms_module.php';
+<?php if ($_valid && !is_callable('content_51eec7edf166d0_96976557')) {function content_51eec7edf166d0_96976557($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_truncate')) include '/Applications/MAMP/htdocs/fancystudio/lib/smarty/plugins/modifier.truncate.php';
+if (!is_callable('smarty_function_sitename')) include '/Applications/MAMP/htdocs/fancystudio/plugins/function.sitename.php';
+if (!is_callable('smarty_function_cms_jquery')) include '/Applications/MAMP/htdocs/fancystudio/plugins/function.cms_jquery.php';
+if (!is_callable('smarty_cms_function_module_available')) include '/Applications/MAMP/htdocs/fancystudio/plugins/function.module_available.php';
+if (!is_callable('smarty_function_cms_module')) include '/Applications/MAMP/htdocs/fancystudio/plugins/function.cms_module.php';
 ?><!doctype html>
 <html lang="<?php echo smarty_modifier_truncate($_smarty_tpl->tpl_vars['lang']->value,'2','');?>
 " dir="<?php echo $_smarty_tpl->tpl_vars['lang_dir']->value;?>

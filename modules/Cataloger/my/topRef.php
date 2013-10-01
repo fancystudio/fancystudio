@@ -10,14 +10,16 @@ $query = 'SELECT c.content_alias,c.content_name FROM cms_content c
           LIMIT 0,8';  
 $dbresult = $db->Execute($query);
 ?>
-<div class="topReferencies"> 
+<div class="row">
+<div class="topReferencies cold-md-12"> 
+
 <h3><span><?= (($lang_parent == "sk") ? 'posledné projekty' : 'the latest projects') ?></span></h3>
-<div style="width:auto; display:block; height: 5px"></div>
+<div style="width:auto; display:block; height: 5px"></div></div>
 
 <?
 while ($dbresult !== false && $row = $dbresult->FetchRow()){
   ?>
-    <div class="reference">
+    <div class="reference col-lg-3 col-md-3 col-sm-">
       <a href="<?= (($lang_parent == "sk") ? 'referencie' : 'references') ?>/<?= $row['content_alias'] ?>.html"> 
         <span class="work_zoom" style="opacity: 0;"><?= $row['content_name'] ?></span>
         <img title="v group" src="uploads/images/catalog_src/<?= $row['content_alias'] ?>_src_1.jpg" alt="<?= $row['content_name'] ?>" />
@@ -30,7 +32,7 @@ while ($dbresult !== false && $row = $dbresult->FetchRow()){
 }
 ?>
 <div style="clear:both; display:block; width: auto; height: 40px "></div>
-</div>  
+ 
 <?
 
       

@@ -99,8 +99,7 @@ margin-bottom: -128px;
 
 .reference{
   	position: relative;
-  	padding-bottom:15px;
-  	padding-top: 15px
+  	padding: 5px !important
 }
 .reference img{
 	width: 100%;

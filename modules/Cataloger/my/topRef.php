@@ -19,7 +19,7 @@ $dbresult = $db->Execute($query);
 <?
 while ($dbresult !== false && $row = $dbresult->FetchRow()){
   ?>
-    <div class="reference col-lg-3 col-md-3 col-sm-">
+    <div class="reference col-lg-3 col-md-3 col-sm-4 col-xs-6">
       <a href="<?= (($lang_parent == "sk") ? 'referencie' : 'references') ?>/<?= $row['content_alias'] ?>.html"> 
         <span class="work_zoom" style="opacity: 0;"><?= $row['content_name'] ?></span>
         <img title="v group" src="uploads/images/catalog_src/<?= $row['content_alias'] ?>_src_1.jpg" alt="<?= $row['content_name'] ?>" />

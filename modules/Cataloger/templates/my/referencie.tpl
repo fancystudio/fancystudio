@@ -7,9 +7,9 @@
 <div class="referenciesMain container">
 <h3><span>{MleCMS name="snippet_referencie"}</span></h3>
    	{MleCMS name="block_referencieMenu"}
-  <div class="referencies">   
+  <div class="referencies container">   
     {section name=numloop loop=$items}       
-      <div class="referencia{if $items[numloop].attrs.web == "Yes"}web {/if}
+      <div class="referencia col-md-3 {if $items[numloop].attrs.web == "Yes"}web {/if}
       {if $items[numloop].attrs.eshop == "Yes"}eshop {/if}
       {if $items[numloop].attrs.brand == "Yes"}brand {/if}
       {if $items[numloop].attrs.print == "Yes"}print {/if}">

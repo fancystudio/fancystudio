@@ -23,28 +23,51 @@ $lang_parent = $smarty->get_template_vars('lang_parent');
 
 <div id="contact" class="container">    
 <div class="topReferencies2">
-<h3><span><?= (($lang_parent == "sk") ? 'kontakt' : 'contact') ?></span></h3>
-<div style="clear: both; height:5px"></div>
-<div class="kontakt-text">
+	<h3><span><?= (($lang_parent == "sk") ? 'kontakt' : 'contact') ?></span></h3>
+	<div class="kontakt-text col-md-5">
+	<p><?= (($lang_parent == "sk") ? 'fancystudio s.r.o.' : 'fancystudio s.r.o.') ?></p>
+<p><?= (($lang_parent == "sk") ? 'Javornícka 2' : 'Javornícka 2') ?></p>
+<p><?= (($lang_parent == "sk") ? '974 11  Banská Bystrica' : '974 11  Banská Bystrica') ?></p>
+<p><?= (($lang_parent == "sk") ? 'IČO: 47395800' : 'IČO: 47395800') ?></p>
+<p><?= (($lang_parent == "sk") ? 'DIČ: 202384896' : 'DIČ: 202384896') ?></p>
+<p>&nbsp;</p>
+<p><?= (($lang_parent == "sk") ? 'e-mail: info@fancystudio.sk' : 'e-mail: info@fancystudio.sk') ?></p>
+<p><?= (($lang_parent == "sk") ? 'tel: 0907 806 323 / 0903 284 642' : 'tel: 0907 806 323 / 0903 284 642') ?></p>
 <ul>
 <li><?= (($lang_parent == "sk") ? 'máte záujem o cenovú kalkuláciu?' : 'would you like a calculation of a prize?') ?></li>
 <li><?= (($lang_parent == "sk") ? 'chcete sa niečo opýtať?' : 'would you like to ask something?') ?></li>
 <li><?= (($lang_parent == "sk") ? 'alebo len pozdraviť baby z baneru?' : 'or only say hi to girls from the banner?') ?></li>
 </ul>
-<img src="images/just-do-it.png" alt="just-do-it" width="232" height="66" /></div>
-<!-- kontakt-text -->
 
-<div class="kontakt-formular">
+		
+
+	<!--<img src="images/just-do-it.png" alt="just-do-it" width="232" height="66" />-->
+	</div><!-- kontakt-text -->
+
+<div class="kontakt-formular col-md-7">
 <div style="display:none" class="email_send"></div>
-<form action="" method="post">
-<input class="form_name" type="text" name="name" value="<?= (($lang_parent == "sk") ? 'Vaše meno' : 'Your name') ?>" /> 
-<input class="form_company" type="text" name="company" value="<?= (($lang_parent == "sk") ? 'Firma (nepovinné)' : 'Company (optional)') ?>" /> 
-<input class="form_email" type="text" name="email" value="<?= (($lang_parent == "sk") ? 'Váš email' : 'Your email') ?>" /> 
-<input class="form_phone" type="text" name="phone" value="<?= (($lang_parent == "sk") ? 'Váš telefón (nepovinné)' : 'Your phone number (optional)') ?>" />
-<textarea rows="20" cols="80" class="form_text" name="text"><?= (($lang_parent == "sk") ? 'Vaša správa...' : 'Your message...') ?></textarea> 
-<input class="form_button" type="button" onclick="formSubmit()" value="<?= (($lang_parent == "sk") ? 'odoslať' : 'send') ?>" />
-</form>
+	<form action="" method="post">
+	<div class="row">
+	<div class="col-md-6">
+	<input class="form_name form-control" type="text" name="name" value="<?= (($lang_parent == "sk") ? 'Vaše meno' : 'Your name') ?>" /> 
+	</div>
+	
+	<div class="col-md-6">
+	<input class="form_company form-control" type="text" name="company" value="<?= (($lang_parent == "sk") ? 'Firma (nepovinné)' : 'Company (optional)') ?>" /> 
+	</div>
+	</div>
+	
+	<input class="form_email form-control" type="text" name="email" value="<?= (($lang_parent == "sk") ? 'Váš email' : 'Your email') ?>" /> 
+	<input class="form_phone form-control" type="text" name="phone" value="<?= (($lang_parent == "sk") ? 'Váš telefón (nepovinné)' : 'Your phone number (optional)') ?>" />
+	<textarea rows="5" class="form_text form-control" name="text"><?= (($lang_parent == "sk") ? 'Vaša správa...' : 'Your message...') ?></textarea> 
+	<input class="form_button" type="button" onclick="formSubmit()" value="<?= (($lang_parent == "sk") ? 'odoslať' : 'send') ?>" />
+	</form>
 </div>
 </div>
 <div style="clear: both;">  <!-- kontakt-formular --></div>
 </div>
+
+
+
+
+

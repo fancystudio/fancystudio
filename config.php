@@ -14,7 +14,7 @@ $config['use_smarty_php_tags'] = true;
 //$config['url_rewriting'] = 'mod_rewrite'; // this is new from 1.6
 //$config['page_extension'] = '.html';
 //$config['use_hierarchy'] = true; // no longer in the config file
-$config['query_var'] = 'page';
-$config['output_compression'] = true;
-$config['root_url'] = 'http://127.0.0.1/fancystudio';
+//$config['query_var'] = 'page';
+//$config['output_compression'] = true;
+//$config['root_url'] = 'http://localhost/fancystudio';
 ?>

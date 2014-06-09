@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.12, created on 2014-06-03 10:32:55
+<?php /* Smarty version Smarty-3.1.12, created on 2014-06-09 20:26:41
          compiled from "/Applications/MAMP/htdocs/fancystudio/admin/themes/OneEleven/templates/login.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:794670647538d8837dc9c93-15516486%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:18673063535395fc61398ff1-05288213%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '27a1cce9d9f7905e42014a368d35543b192a2e50' => 
     array (
       0 => '/Applications/MAMP/htdocs/fancystudio/admin/themes/OneEleven/templates/login.tpl',
-      1 => 1374437902,
+      1 => 1402337704,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '794670647538d8837dc9c93-15516486',
+  'nocache_hash' => '18673063535395fc61398ff1-05288213',
   'function' => 
   array (
   ),
@@ -26,9 +26,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.12',
-  'unifunc' => 'content_538d8838022cf7_70065269',
+  'unifunc' => 'content_5395fc61508701_25824908',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_538d8838022cf7_70065269')) {function content_538d8838022cf7_70065269($_smarty_tpl) {?><?php if (!is_callable('smarty_function_sitename')) include '/Applications/MAMP/htdocs/fancystudio/plugins/function.sitename.php';
+<?php if ($_valid && !is_callable('content_5395fc61508701_25824908')) {function content_5395fc61508701_25824908($_smarty_tpl) {?><?php if (!is_callable('smarty_function_sitename')) include '/Applications/MAMP/htdocs/fancystudio/plugins/function.sitename.php';
 if (!is_callable('smarty_function_cms_jquery')) include '/Applications/MAMP/htdocs/fancystudio/plugins/function.cms_jquery.php';
 if (!is_callable('smarty_function_root_url')) include '/Applications/MAMP/htdocs/fancystudio/plugins/function.root_url.php';
 ?><!doctype html>

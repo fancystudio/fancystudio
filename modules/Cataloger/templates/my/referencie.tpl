@@ -1,5 +1,5 @@
 {womanChange}
-<script type="text/javascript" src="lib/js/jquery/isotope-master/jquery.isotope.min.js"></script>
+<script type="text/javascript" src="lib/js/jquery/isotope-master/dist/isotope.pkgd.min.js"></script>
 <script type="text/javascript" src="lib/js/jquery/jquery.bxSlider/jquery.bxSlider.min.js"></script>
 <script type="text/javascript" src="lib/js/referencie.js"></script>
 <div id="referencesAndContactForm">
@@ -9,7 +9,7 @@
    	{MleCMS name="block_referencieMenu"}
   <div class="referencies container">   
     {section name=numloop loop=$items}       
-      <div class="referencia col-md-3 {if $items[numloop].attrs.web == "Yes"}web {/if}
+      <div class="referencia {if $items[numloop].attrs.web == "Yes"}web {/if}
       {if $items[numloop].attrs.eshop == "Yes"}eshop {/if}
       {if $items[numloop].attrs.brand == "Yes"}brand {/if}
       {if $items[numloop].attrs.print == "Yes"}print {/if}">

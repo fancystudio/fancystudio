@@ -6,21 +6,25 @@
 <div class="slider"><div> {kontakt} </div> <div style="padding-top: 0px; display: block;">
 <div class="referenciesMain container">
 <h3><span>{MleCMS name="snippet_referencie"}</span></h3>
-   	{MleCMS name="block_referencieMenu"}
+   	<div class="menu-wrap">{MleCMS name="block_referencieMenu"}</div><!-- menu wrap -->
   <div class="referencies container">   
     {section name=numloop loop=$items}       
-      <div class="referencia {if $items[numloop].attrs.web == "Yes"}web {/if}
+      <div class="referencia col-md-3 {if $items[numloop].attrs.web == "Yes"}web {/if}
       {if $items[numloop].attrs.eshop == "Yes"}eshop {/if}
       {if $items[numloop].attrs.brand == "Yes"}brand {/if}
       {if $items[numloop].attrs.print == "Yes"}print {/if}">
         <a href="{$items[numloop].link}">
-          <span class="work_zoom" style="opacity: 0;">{$items[numloop].title}</span>
-          <img src="{$items[numloop].image_src}" title="{$items[numloop].title}" alt="{$items[numloop].title}"/>
-          <span class="mask"> </span>
+          <!--<span class="work_zoom" style="opacity: 0;">{$items[numloop].title}</span>-->
+          <img src="{$items[numloop].image_src}" title="{$items[numloop].title}" alt="{$items[numloop].title}" class="img-responsive"/>
+          <!--<span class="mask"> </span>-->
         </a>
       </div>                                
     {/section}
+
   </div>
+ 
 </div>
-</div></div>
+
+</div>
+</div>
 </div>

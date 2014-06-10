@@ -840,18 +840,26 @@ color: #3b404a;
   z-index: 2;
   padding-top: 40px;
 }
+
+.menu-wrap{
+	display: block;
+	text-align: center;
+	width: 100%;
+	height: auto;
+}
+
 .referenciesMenu_sk{
-float: left;
-display: inline;
+
+display: inline-block;
 margin-top: -18px;
-margin-left: 32%;
+
 margin-bottom: 10px;
 }
 .referenciesMenu_en{
 float: left;
-display: inline;
+display: inline-block;
 margin-top: -18px;
-margin-left: 34%;
+
 margin-bottom: 10px;
 }
 .referencies {
@@ -1033,6 +1041,11 @@ margin-right: 15px;
 background-color: transparent !important; 
  border-color: transparent !important; 
 }
+
+
+
+
+
 
 
 

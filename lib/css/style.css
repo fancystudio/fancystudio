@@ -869,12 +869,15 @@ height: auto;
     clear: both;
 	margin-bottom: 15px;
 }
+
 .referencia img{
-      height: 145px;
+  /*    height: 145px;
     margin: 10px;
-    width: 220px;
+    width: 220px;*/
     float:left;
-} 
+    height: auto
+}
+
 .click{
 	display: block;
 	float: left;
@@ -1038,11 +1041,16 @@ margin-right: 15px;
 
 
 .navbar-default {
-background-color: transparent !important; 
- border-color: transparent !important; 
+	background-color: transparent !important; 
+	border-color: transparent !important; 
 }
 
-
+.img-responsive {
+	display: block;
+	height: auto;
+	max-width: 100%;
+	width: 100%;
+}
 
 
 

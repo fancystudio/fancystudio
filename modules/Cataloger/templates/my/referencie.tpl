@@ -14,13 +14,15 @@
 				</h3>
 				<div class="menu-wrap">{MleCMS name="block_referencieMenu"}</div><!-- menu wrap -->
 				<div class="referencies">
+				<div class="row">
 					{section name=numloop loop=$items}
 						<div class='referencia col-md-3 {if $items[numloop].attrs.web == "Yes"}web {/if}{if $items[numloop].attrs.eshop == "Yes"}eshop {/if}{if $items[numloop].attrs.brand == "Yes"}brand {/if}{if $items[numloop].attrs.print == "Yes"}print {/if}'>
 							<a href="{$items[numloop].link}">
-								<img src="{$items[numloop].image_src}" title="{$items[numloop].title}" alt="{$items[numloop].title}" class="img-responsive"/>
+								<img src="{$items[numloop].image_src}" title="{$items[numloop].title}" alt="{$items[numloop].title}" class="img-responsive" width"260" height"171"/>
 							</a>
 						</div>
 					{/section}
+				</div>
 				</div>
 			</div>
 		</div>

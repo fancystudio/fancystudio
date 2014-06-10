@@ -80,7 +80,7 @@ if($_COOKIE["womanIsChange"]){
     <script type="text/javascript">
       $(".getFancyButton").one("click",function(){
         $(".peknaZena").css("visibility","visible");
-        $(".skaredaZena").css("height","517px");
+        $(".skaredaZena").css("height", + $(".anim").css("height"));
         hideSkaredaZena();
         $.post("ajax.php")
           .done(function() {   

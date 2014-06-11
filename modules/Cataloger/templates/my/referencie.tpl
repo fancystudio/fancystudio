@@ -16,7 +16,7 @@
 				<div class="referencies">
 					<div class="row">
 						{section name=numloop loop=$items}
-							<div class='referencia col-md-3 {if $items[numloop].attrs.web == "Yes"}web {/if}{if $items[numloop].attrs.eshop == "Yes"}eshop {/if}{if $items[numloop].attrs.brand == "Yes"}brand {/if}{if $items[numloop].attrs.print == "Yes"}print {/if}'>
+							<div class='referencia col-lg-3 col-md-3 col-sm-4 col-xs-6 {if $items[numloop].attrs.web == "Yes"}web {/if}{if $items[numloop].attrs.eshop == "Yes"}eshop {/if}{if $items[numloop].attrs.brand == "Yes"}brand {/if}{if $items[numloop].attrs.print == "Yes"}print {/if}'>
 								<a href="{$items[numloop].link}">
 									<img src="{$items[numloop].image_src}" title="{$items[numloop].title}" alt="{$items[numloop].title}" class="img-responsive" width"260" height"171"/>
 								</a>

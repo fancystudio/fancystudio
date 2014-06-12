@@ -1,4 +1,5 @@
 {womanChange}
+<script type="text/javascript" src="lib/js/jquery/imagesloaded-master/imagesloaded.pkgd.js"></script>
 <script type="text/javascript" src="lib/js/jquery/isotope-master/dist/isotope.pkgd.min.js"></script>
 <script type="text/javascript" src="lib/js/jquery/jquery.bxSlider/jquery.bxSlider.min.js"></script>
 <script type="text/javascript" src="lib/js/referencie.js"></script>

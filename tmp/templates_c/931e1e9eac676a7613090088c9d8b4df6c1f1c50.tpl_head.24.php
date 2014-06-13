@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.12, created on 2014-06-10 20:25:44
+<?php /* Smarty version Smarty-3.1.12, created on 2014-06-12 23:37:19
          compiled from "tpl_head:24" */ ?>
 <?php /*%%SmartyHeaderCode:100357418853974da8b903b6-04328592%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '931e1e9eac676a7613090088c9d8b4df6c1f1c50' => 
     array (
       0 => 'tpl_head:24',
-      1 => 1401702286,
+      1 => 1402609035,
       2 => 'tpl_head',
     ),
   ),
@@ -15,9 +15,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
-  'has_nocache_code' => false,
   'version' => 'Smarty-3.1.12',
   'unifunc' => 'content_53974da8ba58b2_26273992',
+  'has_nocache_code' => false,
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_53974da8ba58b2_26273992')) {function content_53974da8ba58b2_26273992($_smarty_tpl) {?><?php if (!is_callable('smarty_function_metadata')) include '/Applications/MAMP/htdocs/fancystudio/plugins/function.metadata.php';
 if (!is_callable('smarty_function_root_url')) include '/Applications/MAMP/htdocs/fancystudio/plugins/function.root_url.php';
@@ -40,6 +40,8 @@ if (!is_callable('smarty_function_root_url')) include '/Applications/MAMP/htdocs
 /lib/js/jquery/jquery.easing.compatibility.js"></script>
 <script type="text/javascript" src="<?php echo smarty_function_root_url(array(),$_smarty_tpl);?>
 /lib/js/jquery/jquery-cookie-master/jquery.cookie.js"></script>
+<script type="text/javascript" src="<?php echo smarty_function_root_url(array(),$_smarty_tpl);?>
+/lib/js/classie.js"></script>
 <script type="text/javascript" src="<?php echo smarty_function_root_url(array(),$_smarty_tpl);?>
 /js/bootstrap.js"></script>   
 <!--[if lt IE 8]>

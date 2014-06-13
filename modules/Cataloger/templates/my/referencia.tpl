@@ -13,9 +13,9 @@
   {assign var="pageHeight" value=$pageHeight + $src_image_size_array[ind][1]}
 {/if}
 {/section}
-<div class="referenceDetail" style="min-height: 1500px !important;">
+<div class="referenceDetail container">
   <div class="referenceImgAndDesc">
-  <img class="referenceImg"  src="{$src_image_2_url}" width="{$src_image_size_array[1][0]}" height="{$src_image_size_array[1][1]}" title="{$title}" alt="{$title}" />
+  <img class="referenceImg"  src="{$src_image_2_url}" width="{$src_image_size_array[1][0]}" height="{$src_image_size_array[1][1]}" title="{$title}" alt="{$title}" class="img-responsive"/>
     <div class="referenceDesc">
       <h1>{$title}</h1>
       {section name=at loop=$attrlist}
@@ -78,7 +78,7 @@ text="<span></span>"}
   
   {section name=ind loop=$src_image_url_array}
   	{if $smarty.section.ind.index != 0 AND $smarty.section.ind.index != 1}
-    	<img class="referenceScreen" width="{$src_image_size_array[ind][0]}" height="{$src_image_size_array[ind][1]}" data-original="{$src_image_url_array[ind]}" src="{$src_image_url_array[ind]}" title="{$title} - {MleCMS name="snippet_webStranka"}" alt="{$title} - {MleCMS name="snippet_webStranka"}" />
+    	<img class="referenceScreen img-responsive" width="{$src_image_size_array[ind][0]}" height="{$src_image_size_array[ind][1]}" data-original="{$src_image_url_array[ind]}" src="{$src_image_url_array[ind]}" title="{$title} - {MleCMS name="snippet_webStranka"}" alt="{$title} - {MleCMS name="snippet_webStranka"}" />
   	{/if}
     
   {/section}

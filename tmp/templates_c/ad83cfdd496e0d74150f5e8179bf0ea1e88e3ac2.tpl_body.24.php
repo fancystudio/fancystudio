@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.12, created on 2014-06-10 20:25:44
+<?php /* Smarty version Smarty-3.1.12, created on 2014-06-12 23:37:18
          compiled from "tpl_body:24" */ ?>
 <?php /*%%SmartyHeaderCode:165090135453974da80e77d9-68229326%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'ad83cfdd496e0d74150f5e8179bf0ea1e88e3ac2' => 
     array (
       0 => 'tpl_body:24',
-      1 => 1401702286,
+      1 => 1402609035,
       2 => 'tpl_body',
     ),
   ),
@@ -15,18 +15,19 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
+  'version' => 'Smarty-3.1.12',
+  'unifunc' => 'content_53974da81193a1_00136808',
   'variables' => 
   array (
     'lang_parent' => 0,
     'lang_locale' => 0,
   ),
   'has_nocache_code' => false,
-  'version' => 'Smarty-3.1.12',
-  'unifunc' => 'content_53974da81193a1_00136808',
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_53974da81193a1_00136808')) {function content_53974da81193a1_00136808($_smarty_tpl) {?><?php if (!is_callable('smarty_function_root_url')) include '/Applications/MAMP/htdocs/fancystudio/plugins/function.root_url.php';
 ?>
     <body>
+    <header>
 		<div id="header" class="container">
 		<a href="<?php echo smarty_function_root_url(array(),$_smarty_tpl);?>
 " class="logo">
@@ -53,6 +54,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 				</div><!-- /.container-fluid -->
 			</nav>
 		</div><!-- end header --> 
+        </header>
 		
 		
 		<div id="baner-color">

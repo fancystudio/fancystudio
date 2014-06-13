@@ -78,9 +78,10 @@ if($_COOKIE["womanIsChange"]){
   }else{
   ?>
     <script type="text/javascript">
+    console.log($(".animSkareda").css("height"));
       $(".getFancyButton").one("click",function(){
         $(".peknaZena").css("visibility","visible");
-        $(".skaredaZena").css("height", + $(".anim").css("height"));
+        $(".skaredaZena").css("height", + $(".animSkareda").css("height"));
         hideSkaredaZena();
         $.post("ajax.php")
           .done(function() {   

@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.12, created on 2014-06-12 23:37:18
+<?php /* Smarty version Smarty-3.1.12, created on 2014-06-13 22:10:43
          compiled from "tpl_body:24" */ ?>
 <?php /*%%SmartyHeaderCode:165090135453974da80e77d9-68229326%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'ad83cfdd496e0d74150f5e8179bf0ea1e88e3ac2' => 
     array (
       0 => 'tpl_body:24',
-      1 => 1402609035,
+      1 => 1402690213,
       2 => 'tpl_body',
     ),
   ),
@@ -59,6 +59,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 		
 		<div id="baner-color">
 			<div class="banerGetFancy container"> 
+                <div class="animSkareda animPekna" style="display:none"></div>
 				<div class="skaredaZena"></div>
 				<div class="peknaZena"></div>
 				<?php echo MleCMS::function_plugin(array('name'=>"block_uvodnyText"),$_smarty_tpl);?>

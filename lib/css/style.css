@@ -8,7 +8,9 @@ h2 {font-family: akzidenz; color: #3A3F49; }
 
 body{
 	height: auto;
-	background-color: #FFF;  
+	background-color: #FFF; 
+	max-width: 100%;
+	overflow-x: hidden !important; 
 	
 }
 h4{
@@ -1079,7 +1081,10 @@ margin-right: 15px;
 }
 
 
-
+img.referenceScreen.img-responsive {
+max-width: 960px;
+margin: 0 auto;
+}
 
 
 
@@ -1098,7 +1103,9 @@ margin-right: 15px;
 /* Portrait tablets and small desktops */
 @media (min-width: 768px) and (max-width: 991px) {
 
-
+.refs-nav{
+	position: static
+}
 
 .odstavce .col-md-3 {
 text-align: left;
@@ -1118,6 +1125,10 @@ transform: scale(0.9);
 
 /* Landscape phones and portrait tablets */
 @media (max-width: 767px) {
+
+.nav-pills li a{
+	margin: 0px
+}
 
 header {
 height: auto;
@@ -1229,6 +1240,18 @@ width: 100%;
 clear: both;
 }
 
+.referenceImgAndDesc .referenceDesc {
+float: left;
+height: auto;
+position: absolute;
+right: -25px;
+bottom: 50px !important;
+width: 330px;
+position: static !important;
+margin-top: -65px;
+margin-bottom: 100px;
+}
+
 
 }
 
@@ -1238,6 +1261,7 @@ clear: both;
 .referenceImgAndDesc, .referenceDetail, .referenceImgAndDesc .referenceImg, .refs-nav {
 width: 100%;
 }
+
 }
 
 
@@ -1275,9 +1299,8 @@ width: 33%;
 height: auto;
 position: absolute;
 bottom: 70px !important;
-left: -53px;
 width: 100%;
-transform: scale(0.7);
+margin-bottom: 0px;
 }
 
 .referenceDesc p{

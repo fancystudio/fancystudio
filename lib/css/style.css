@@ -1072,15 +1072,16 @@ margin-right: 15px;
 
 .animPekna{
 	height: 517px;
-	top: 1353px;
+	top: 385px;
 }
 
 .animSkareda{
 	height: 517px;
-	top: 1353px;
+	top: 390px;
 }
 
 
+<<<<<<< HEAD
 img.referenceScreen.img-responsive {
 max-width: 960px;
 margin: 0 auto;
@@ -1090,6 +1091,8 @@ margin: 0 auto;
 
 
 
+=======
+>>>>>>> FETCH_HEAD
 /* Large desktops and laptops */
 @media (min-width: 1200px) {
 

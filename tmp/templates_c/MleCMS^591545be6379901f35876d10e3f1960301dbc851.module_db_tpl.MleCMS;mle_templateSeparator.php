@@ -1,6 +1,12 @@
+<<<<<<< HEAD
 <?php /* Smarty version Smarty-3.1.12, created on 2014-06-14 13:02:11
          compiled from "module_db_tpl:MleCMS;mle_templateSeparator" */ ?>
 <?php /*%%SmartyHeaderCode:1554410754539c2bb3e9feb3-81662662%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+=======
+<?php /* Smarty version Smarty-3.1.12, created on 2014-06-14 16:48:57
+         compiled from "module_db_tpl:MleCMS;mle_templateSeparator" */ ?>
+<?php /*%%SmartyHeaderCode:1534860501539c60d9db4b77-94416599%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+>>>>>>> FETCH_HEAD
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +17,11 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'module_db_tpl',
     ),
   ),
+<<<<<<< HEAD
   'nocache_hash' => '1554410754539c2bb3e9feb3-81662662',
+=======
+  'nocache_hash' => '1534860501539c60d9db4b77-94416599',
+>>>>>>> FETCH_HEAD
   'function' => 
   array (
   ),
@@ -25,9 +35,15 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.12',
+<<<<<<< HEAD
   'unifunc' => 'content_539c2bb3efb6b5_55583761',
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_539c2bb3efb6b5_55583761')) {function content_539c2bb3efb6b5_55583761($_smarty_tpl) {?><?php if (!is_callable('smarty_function_cms_selflink')) include '/Applications/MAMP/htdocs/fancystudio/plugins/function.cms_selflink.php';
+=======
+  'unifunc' => 'content_539c60d9e05b39_84490854',
+),false); /*/%%SmartyHeaderCode%%*/?>
+<?php if ($_valid && !is_callable('content_539c60d9e05b39_84490854')) {function content_539c60d9e05b39_84490854($_smarty_tpl) {?><?php if (!is_callable('smarty_function_cms_selflink')) include '/Applications/MAMP/htdocs/fancystudio/plugins/function.cms_selflink.php';
+>>>>>>> FETCH_HEAD
 ?><?php if ($_smarty_tpl->tpl_vars['langs_count']->value){?>
     <?php  $_smarty_tpl->tpl_vars['l'] = new Smarty_Variable; $_smarty_tpl->tpl_vars['l']->_loop = false;
  $_from = $_smarty_tpl->tpl_vars['langs']->value; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array');}

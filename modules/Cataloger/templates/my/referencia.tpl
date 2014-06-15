@@ -13,7 +13,7 @@
   {assign var="pageHeight" value=$pageHeight + $src_image_size_array[ind][1]}
 {/if}
 {/section}
-<div class="referenceDetail container">
+<div class="container">
   <div class="referenceImgAndDesc">
   <img class="referenceImg"  src="{$src_image_2_url}" width="{$src_image_size_array[1][0]}" height="{$src_image_size_array[1][1]}" title="{$title}" alt="{$title}" class="img-responsive"/>
     <div class="referenceDesc">

@@ -1,6 +1,6 @@
 
 
-<div class="col-md-7 col-md-offset-2" style="text-align:center">
+<div class="col-md-8 col-md-offset-2" style="text-align:center">
 <p>
 <strong style="font-size: 16px;">Teší nás,</strong> sme digitálna agentúra, ktorá má za sebou už nejeden úspešný projekt a na konte radu usmiatych klientov. Radi sa o Vás postaráme v nasledových oblastiach: tvorba web stránok, e-shopov, online marketing, branding, grafický dizajn a copywriting. Ak potrebujete zastrešiť niektorú z vymenovaných oblastí pohodlne sa usaďte a nechajte nás pracovať ;-)
 </p>

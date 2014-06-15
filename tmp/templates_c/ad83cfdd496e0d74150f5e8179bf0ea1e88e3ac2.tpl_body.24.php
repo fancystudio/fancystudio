@@ -1,30 +1,47 @@
+<<<<<<< HEAD
 <?php /* Smarty version Smarty-3.1.12, created on 2014-06-14 13:02:10
          compiled from "tpl_body:24" */ ?>
 <?php /*%%SmartyHeaderCode:84773246539c2bb29a1539-57453296%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+=======
+<?php /* Smarty version Smarty-3.1.12, created on 2014-06-14 18:12:50
+         compiled from "tpl_body:24" */ ?>
+<?php /*%%SmartyHeaderCode:536959748539c60d8e153e1-68681927%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+>>>>>>> FETCH_HEAD
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     'ad83cfdd496e0d74150f5e8179bf0ea1e88e3ac2' => 
     array (
       0 => 'tpl_body:24',
-      1 => 1402690213,
+      1 => 1402762368,
       2 => 'tpl_body',
     ),
   ),
+<<<<<<< HEAD
   'nocache_hash' => '84773246539c2bb29a1539-57453296',
+=======
+  'nocache_hash' => '536959748539c60d8e153e1-68681927',
+>>>>>>> FETCH_HEAD
   'function' => 
   array (
   ),
+  'version' => 'Smarty-3.1.12',
+  'unifunc' => 'content_539c60d8e47800_77670394',
   'variables' => 
   array (
     'lang_parent' => 0,
     'lang_locale' => 0,
   ),
   'has_nocache_code' => false,
+<<<<<<< HEAD
   'version' => 'Smarty-3.1.12',
   'unifunc' => 'content_539c2bb29c6011_14918061',
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_539c2bb29c6011_14918061')) {function content_539c2bb29c6011_14918061($_smarty_tpl) {?><?php if (!is_callable('smarty_function_root_url')) include '/Applications/MAMP/htdocs/fancystudio/plugins/function.root_url.php';
+=======
+),false); /*/%%SmartyHeaderCode%%*/?>
+<?php if ($_valid && !is_callable('content_539c60d8e47800_77670394')) {function content_539c60d8e47800_77670394($_smarty_tpl) {?><?php if (!is_callable('smarty_function_root_url')) include '/Applications/MAMP/htdocs/fancystudio/plugins/function.root_url.php';
+>>>>>>> FETCH_HEAD
 ?>
     <body>
     <header>
@@ -56,7 +73,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 		</div><!-- end header --> 
         </header>
 		
-		
+		<div class="baner-wrapper">
 		<div id="baner-color">
 			<div class="banerGetFancy container"> 
                 <div class="animSkareda animPekna" style="display:none"></div>
@@ -70,7 +87,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 				</div>
 			</div><!-- end banerGetFancy-->  
 		</div><!-- end baner-color --> 
-		
+		</div><!-- baner wrapper-->
 		
 		<?php CMS_Content_Block::smarty_internal_fetch_contentblock(array(),$_smarty_tpl); ?>
 		

@@ -5,7 +5,7 @@ if($_COOKIE["womanIsChange"]){
   ?>
   <style type="text/css">
     .peknaZena{
-      background: url("../../images/chick.png") repeat scroll 0 0 transparent;
+      background: url("images/chick.png") repeat scroll 0 0 transparent;
       float: left;
       height: 385px;
       left: -53px;

@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.12, created on 2014-06-14 00:10:51
+<?php /* Smarty version Smarty-3.1.12, created on 2014-06-14 13:02:12
          compiled from "2e8664ae74d7f34c9a5fecd71dc169bfe3508401" */ ?>
-<?php /*%%SmartyHeaderCode:717751977539b76eb363452-34615951%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:804671594539c2bb40ae416-69310771%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,12 +11,12 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'string',
     ),
   ),
-  'nocache_hash' => '717751977539b76eb363452-34615951',
+  'nocache_hash' => '804671594539c2bb40ae416-69310771',
   'function' => 
   array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.12',
-  'unifunc' => 'content_539b76eb366630_57511929',
+  'unifunc' => 'content_539c2bb40b15c4_49351058',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_539b76eb366630_57511929')) {function content_539b76eb366630_57511929($_smarty_tpl) {?><div id="getFancyText"><span class="span1">Je</span> <span class="span2">len</span> <span class="span3">na</span> <span class="span4">Vás</span> <span class="span5">koho</span> <span class="span6">necháte</span> <span class="span7">predávať</span> <span class="span8">Vaše</span> <span class="span9">produkty a služby</span></div><?php }} ?>
+<?php if ($_valid && !is_callable('content_539c2bb40b15c4_49351058')) {function content_539c2bb40b15c4_49351058($_smarty_tpl) {?><div id="getFancyText"><span class="span1">Je</span> <span class="span2">len</span> <span class="span3">na</span> <span class="span4">Vás</span> <span class="span5">koho</span> <span class="span6">necháte</span> <span class="span7">predávať</span> <span class="span8">Vaše</span> <span class="span9">produkty a služby</span></div><?php }} ?>

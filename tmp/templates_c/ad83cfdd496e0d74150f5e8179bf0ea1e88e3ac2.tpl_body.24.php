@@ -1,47 +1,30 @@
-<<<<<<< HEAD
-<?php /* Smarty version Smarty-3.1.12, created on 2014-06-14 13:02:10
+<?php /* Smarty version Smarty-3.1.12, created on 2014-06-15 13:59:12
          compiled from "tpl_body:24" */ ?>
-<?php /*%%SmartyHeaderCode:84773246539c2bb29a1539-57453296%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
-=======
-<?php /* Smarty version Smarty-3.1.12, created on 2014-06-14 18:12:50
-         compiled from "tpl_body:24" */ ?>
-<?php /*%%SmartyHeaderCode:536959748539c60d8e153e1-68681927%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
->>>>>>> FETCH_HEAD
+<?php /*%%SmartyHeaderCode:1054467050539d85c5bce435-58368511%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     'ad83cfdd496e0d74150f5e8179bf0ea1e88e3ac2' => 
     array (
       0 => 'tpl_body:24',
-      1 => 1402762368,
+      1 => 1402833549,
       2 => 'tpl_body',
     ),
   ),
-<<<<<<< HEAD
-  'nocache_hash' => '84773246539c2bb29a1539-57453296',
-=======
-  'nocache_hash' => '536959748539c60d8e153e1-68681927',
->>>>>>> FETCH_HEAD
+  'nocache_hash' => '1054467050539d85c5bce435-58368511',
   'function' => 
   array (
   ),
   'version' => 'Smarty-3.1.12',
-  'unifunc' => 'content_539c60d8e47800_77670394',
+  'unifunc' => 'content_539d85c5c01ab3_09039838',
   'variables' => 
   array (
     'lang_parent' => 0,
     'lang_locale' => 0,
   ),
   'has_nocache_code' => false,
-<<<<<<< HEAD
-  'version' => 'Smarty-3.1.12',
-  'unifunc' => 'content_539c2bb29c6011_14918061',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_539c2bb29c6011_14918061')) {function content_539c2bb29c6011_14918061($_smarty_tpl) {?><?php if (!is_callable('smarty_function_root_url')) include '/Applications/MAMP/htdocs/fancystudio/plugins/function.root_url.php';
-=======
-),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_539c60d8e47800_77670394')) {function content_539c60d8e47800_77670394($_smarty_tpl) {?><?php if (!is_callable('smarty_function_root_url')) include '/Applications/MAMP/htdocs/fancystudio/plugins/function.root_url.php';
->>>>>>> FETCH_HEAD
+<?php if ($_valid && !is_callable('content_539d85c5c01ab3_09039838')) {function content_539d85c5c01ab3_09039838($_smarty_tpl) {?><?php if (!is_callable('smarty_function_root_url')) include '/Applications/MAMP/htdocs/fancystudio/plugins/function.root_url.php';
 ?>
     <body>
     <header>
@@ -76,7 +59,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 		<div class="baner-wrapper">
 		<div id="baner-color">
 			<div class="banerGetFancy container"> 
-                <div class="animSkareda animPekna" style="display:none"></div>
+                <div class="animSkareda" style="display:none"></div>
+                <div class="animPekna" style="display:none"></div>
 				<div class="skaredaZena"></div>
 				<div class="peknaZena"></div>
 				<?php echo MleCMS::function_plugin(array('name'=>"block_uvodnyText"),$_smarty_tpl);?>

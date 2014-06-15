@@ -1,41 +1,25 @@
-<<<<<<< HEAD
-<?php /* Smarty version Smarty-3.1.12, created on 2014-06-14 13:02:12
+<?php /* Smarty version Smarty-3.1.12, created on 2014-06-15 13:59:13
          compiled from "tpl_head:24" */ ?>
-<?php /*%%SmartyHeaderCode:1999830954539c2bb41e9d35-98337191%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
-=======
-<?php /* Smarty version Smarty-3.1.12, created on 2014-06-14 18:12:51
-         compiled from "tpl_head:24" */ ?>
-<?php /*%%SmartyHeaderCode:1706780243539c60da144283-44935191%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
->>>>>>> FETCH_HEAD
+<?php /*%%SmartyHeaderCode:1129137380539d85c63462f4-49219410%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '931e1e9eac676a7613090088c9d8b4df6c1f1c50' => 
     array (
       0 => 'tpl_head:24',
-      1 => 1402762368,
+      1 => 1402833549,
       2 => 'tpl_head',
     ),
   ),
-<<<<<<< HEAD
-  'nocache_hash' => '1999830954539c2bb41e9d35-98337191',
-=======
-  'nocache_hash' => '1706780243539c60da144283-44935191',
->>>>>>> FETCH_HEAD
+  'nocache_hash' => '1129137380539d85c63462f4-49219410',
   'function' => 
   array (
   ),
   'version' => 'Smarty-3.1.12',
-<<<<<<< HEAD
-  'unifunc' => 'content_539c2bb42076c5_59940669',
-),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_539c2bb42076c5_59940669')) {function content_539c2bb42076c5_59940669($_smarty_tpl) {?><?php if (!is_callable('smarty_function_metadata')) include '/Applications/MAMP/htdocs/fancystudio/plugins/function.metadata.php';
-=======
-  'unifunc' => 'content_539c60da160d17_25520888',
+  'unifunc' => 'content_539d85c6364052_04082809',
   'has_nocache_code' => false,
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_539c60da160d17_25520888')) {function content_539c60da160d17_25520888($_smarty_tpl) {?><?php if (!is_callable('smarty_function_metadata')) include '/Applications/MAMP/htdocs/fancystudio/plugins/function.metadata.php';
->>>>>>> FETCH_HEAD
+<?php if ($_valid && !is_callable('content_539d85c6364052_04082809')) {function content_539d85c6364052_04082809($_smarty_tpl) {?><?php if (!is_callable('smarty_function_metadata')) include '/Applications/MAMP/htdocs/fancystudio/plugins/function.metadata.php';
 if (!is_callable('smarty_function_root_url')) include '/Applications/MAMP/htdocs/fancystudio/plugins/function.root_url.php';
 ?><head>
 <?php echo smarty_function_metadata(array(),$_smarty_tpl);?>

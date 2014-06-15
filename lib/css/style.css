@@ -6,13 +6,20 @@
 
 h2 {font-family: akzidenz; color: #3A3F49; }
 
-body{
+
+
+html, body{
 	height: auto;
 	background-color: #FFF; 
 	max-width: 100%;
 	overflow-x: hidden !important; 
+	width: 100%
+	
 	
 }
+
+
+
 h4{
 	font-family:medium;
 	color: #6d6e71
@@ -75,9 +82,15 @@ header {
     margin: 0 auto;
     width: 1080px;
 	position: relative;
-	
-	
 }
+
+.baner-wrapper{
+	width: 100%;
+	height: auto;
+	float: left;
+	overflow: hidden;
+}
+
 .skaredaZena{
    background: url("../../images/ohava.png") repeat scroll 0 0 transparent;
     clear: both;
@@ -99,7 +112,7 @@ z-index: 4;
     position: relative;
     top: 350px;
     width: 323px;
-	z-index: 1;
+	z-index: 3;
 }
 #referencesAndContactForm{
     background: none repeat scroll 0 0 white;
@@ -120,8 +133,8 @@ z-index: 4;
 
 .reference{
   	position: relative;
-  	padding: 5px !important
 }
+
 .reference img{
 	width: 100%;
 	height: auto	
@@ -137,6 +150,10 @@ background: transparent url(../../images/line.gif) 0 center repeat-x;
 color: #3a3f49;
 text-align: center;
 font-family: akzidenz;
+}
+
+.topReferencies{
+	margin-bottom: -10px
 }
 
 .topReferencies h3 span, .referenciesMain h3 span, h3 span, #sluzby h3 span{
@@ -888,12 +905,14 @@ margin-bottom: 10px;
 	margin-bottom: 15px;
 }
 
-.referencia img{
+.referencia img, .reference img{
   /*    height: 145px;
     margin: 10px;
     width: 220px;*/
     float:left;
-    height: auto
+    height: auto;
+    margin-bottom: 10px;
+    margin-top: 10px
 }
 
 .click{
@@ -1080,9 +1099,6 @@ margin-right: 15px;
 	top: 390px;
 }
 
-
-<<<<<<< HEAD
-<<<<<<< HEAD
 img.referenceScreen.img-responsive {
 max-width: 960px;
 margin: 0 auto;
@@ -1092,10 +1108,7 @@ margin: 0 auto;
 
 
 
-=======
->>>>>>> FETCH_HEAD
-=======
->>>>>>> FETCH_HEAD
+
 /* Large desktops and laptops */
 @media (min-width: 1200px) {
 
@@ -1215,6 +1228,8 @@ z-index: 1;
 background-size: cover;
 top: -6px !important;
 }
+
+
 
 
 .banerGetFancy {
@@ -1347,4 +1362,22 @@ bottom: 0px !important;
 width: 20%;
 }
 
-x
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			

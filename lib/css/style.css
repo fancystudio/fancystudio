@@ -610,7 +610,7 @@ padding-bottom: 40px;
    -webkit-transition: opacity .35s ease-in-out;
 }
 .tw-icon img:hover, .fb-icon img:hover, .li-icon img:hover{
-	opacity: 0.8;
+	opacity: 0.95;
 	transition: opacity .35s ease-in-out;
    -moz-transition: opacity .35s ease-in-out;
    -webkit-transition: opacity .35s ease-in-out;
@@ -740,46 +740,46 @@ width: 220px;
 .backToAll a{
   text-decoration:  none;
 }
-.work_zoom{
-  background-image: url("/images/work_zoom.png");
-    background-position: center top;
-    background-repeat: no-repeat;
-    display: block;
-    height: 145px;
-    line-height: 145px;
-    position: absolute;
-    text-shadow: 0 -1px 0 #000000;
-    width: 220px;
-    z-index: 2;
-    top: 20px;
-    text-align: center;
-	
+
+.work_zoom {
+	background-image: url("/images/work_zoom.png");
+	background-position: center top;
+	background-repeat: no-repeat;
+	display: block;
+	line-height: 187px;
+	position: absolute;
+	z-index: 2;
+	text-align: center;
 	font-family: medium;
-  color: white;
-  font-size: 16px;
-  z-index: 20;
-  
-  margin-left: 10px;
-margin-top: -10px;
-
+	color: white;
+	font-size: 16px;
+	z-index: 20;
+	margin-left: 10px;
+	margin-top: -10px;
+	background: rgba(89, 226, 172, 1);
+	top: 20px;
+	bottom: 10px;
+	left: 5px;
+	right: 15px;
+	font-size: 30px;
 }
 
 
-.reference .work_zoom{
-  left: -10px;
-  top: 10px;
-}
+
 .mask{
-  background-image: url("/images/work_mask.png");
-    background-position: center top;
-    background-repeat: no-repeat;
-    display: block;
-    height: 145px;
-    position: absolute;
-    top: 0;
-    width: 220px;
-    z-index: 1;
+	background-image: url("/images/work_mask.png");
+	background-position: center top;
+	background-repeat: no-repeat;
+	display: block;
+	position: absolute;
+	top: 10px;
+	bottom: 0px;
+	left: 15px;
+	right: 15px;
+	z-index: 1;
+	margin-bottom: 11px;
 }
+
 .referenceDetail{
   background: none repeat scroll 0 0 white;
   position: relative;
@@ -1138,6 +1138,37 @@ right: -94px;
 bottom: 50px !important;
 width: 304px;
 transform: scale(0.9);
+}
+
+.peknaZena, .animPekna {
+height: 356px;
+left: -227px;
+position: relative;
+/*top: 350px;*/
+width: 313px;
+z-index: 3;
+background-size: cover;
+top: -6px !important;
+}
+
+.skaredaZena, .animSkareda {
+float: left;
+height: 517px;
+left: -12px;
+position: relative;
+top: -9px;
+width: 194px;
+margin-bottom: -130px;
+z-index: 4;
+height: 360px ;
+background-size: cover;
+}
+
+
+#getFancyText {
+transform: scale(0.7);
+width: 543px;
+right: -80px;
 }
 
 }

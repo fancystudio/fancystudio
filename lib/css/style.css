@@ -1140,7 +1140,7 @@ width: 304px;
 transform: scale(0.9);
 }
 
- .animPekna {
+.peknaZena {
 height: 356px;
 left: -227px;
 position: relative;
@@ -1151,7 +1151,7 @@ background-size: cover;
 top: -6px !important;
 }
 
- .animSkareda {
+.skaredaZena {
 float: left;
 height: 517px;
 left: -12px;

@@ -1340,7 +1340,21 @@ display: none
 }
 
 
+<<<<<<< HEAD
 
+=======
+.peknaZena {
+background: url("../../images/chick.png") repeat scroll 0 0 transparent;
+float: left;
+height: 356px !important;
+left: -206px !important;
+position: relative;
+width: 301px !important;
+z-index: 1;
+background-size: cover;
+top: 380px;
+}
+>>>>>>> FETCH_HEAD
 
 
 

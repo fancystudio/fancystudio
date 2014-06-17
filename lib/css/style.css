@@ -1128,6 +1128,10 @@ margin: 0 auto;
 /* Portrait tablets and medium desktops */
 @media (min-width: 992px) and (max-width: 1199px) {
 
+.banerGetFancy {
+width: auto !important;
+}
+
 .skaredaZena {
 left: 140px;
 }
@@ -1340,9 +1344,7 @@ display: none
 }
 
 
-<<<<<<< HEAD
 
-=======
 .peknaZena {
 background: url("../../images/chick.png") repeat scroll 0 0 transparent;
 float: left;
@@ -1354,7 +1356,7 @@ z-index: 1;
 background-size: cover;
 top: 380px;
 }
->>>>>>> FETCH_HEAD
+
 
 
 

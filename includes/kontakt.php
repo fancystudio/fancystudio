@@ -15,11 +15,11 @@ $lang_parent = $smarty->get_template_vars('lang_parent');
 <div class="form_your_phone_help hide"><?= (($lang_parent == "sk") ? 'Váš telefón' : 'Your phone') ?></div>
 <div class="form_mandatory_help hide"><?= (($lang_parent == "sk") ? 'Nasledujúci údaj, resp. údaje boli vyplnené nesprávne' : 'Some of the mandatory field(s) were filled incorrectly') ?></div>
 <div class="form_unfilled_help hide"><?= (($lang_parent == "sk") ? 'Niektorý z povinných údajov ostal nevyplnený, alebo bol vyplnený nesprávne' : 'Some of the mandatory field(s) was unfilled, or they were filled in incorrectly') ?></div>
-<div class="form_fancy_solution_help hide"><?= (($lang_parent == "sk") ? 'chcem fancy riešenie!' : 'i want fancy solution!') ?></div>
+<div class="form_fancy_solution_help hide"><?= (($lang_parent == "sk") ? 'Chcem fancy riešenie!' : 'I want fancy solution!') ?></div>
 <div class="form_back_services_help hide"><?= (($lang_parent == "sk") ? 'späť na služby' : 'back to services') ?></div>
 <div class="form_references_help hide"><?= (($lang_parent == "sk") ? 'referencie' : 'references') ?></div>
-<div class="form_top_references_help hide"><?= (($lang_parent == "sk") ? 'zobraziť top referencie' : 'show top references') ?></div>
-<div class="form_back_reference_help hide"><?= (($lang_parent == "sk") ? 'späť na referencie' : 'back to references') ?></div>
+<div class="form_top_references_help hide"><?= (($lang_parent == "sk") ? 'Zobraziť top referencie' : 'show top references') ?></div>
+<div class="form_back_reference_help hide"><?= (($lang_parent == "sk") ? 'späť na referencie' : 'Back to references') ?></div>
 
 <div id="contact" class="container">    
 <div class="topReferencies2">

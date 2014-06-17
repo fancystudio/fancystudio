@@ -18,7 +18,14 @@ html, body{
 	
 }
 
-
+.glyphicon{
+	opacity: 1 !important;
+	position: absolute !important;
+	top:50% !important;
+	left: 50%;
+	margin-top: -15px;
+	margin-left: -15px
+}
 
 h4{
 	font-family:medium;
@@ -34,13 +41,17 @@ header {
     position: fixed;
     top: 0;
     left: 0;
-    z-index: 3;
-    background-color: rgba(255,255,255,0.90);
-    -webkit-transition: height 0.3s;
-    -moz-transition: height 0.3s;
-    -ms-transition: height 0.3s;
-    -o-transition: height 0.3s;
-    transition: height 0.3s;
+    z-index: 5;
+    
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+}
+header.smaller{
+	background-color: rgba(255,255,255,0.90);
+	
 }
 
 #header {
@@ -211,7 +222,7 @@ padding: 10px;
 float: left;
 height: 189px;
 right: 0px;
-top: 60px;
+top: 45px;
 width: 544px;
 position: absolute;
 }
@@ -331,21 +342,21 @@ font-size: 33px;
 left: 254px;
 top: 160px;
 }	
-.getFancyButtonBox{
 
-right: 139px;
-position: absolute;
-top: 280px;
-border-radius: 8px;
--moz-border-radius: 8px;
--webkit-border-radius: 8px;
-border: 4px solid #4fe2ac;
-padding: 7px 15px 7px 15px;
-text-rendering: optimizelegibility;
-font-family: light;
-width: auto;
-height: 40px;
+.getFancyButtonBox {
+	right: 126px;
+	position: absolute;
+	top: 265px;
+	border: 4px solid #4fe2ac;
+	padding: 10px 20px 10px 20px;
+	text-rendering: optimizelegibility;
+	font-size: 20px;
+	width: auto;
+	font-family: lobster;
+	min-height: 56px;
+
 }
+
 .getFancyButton{
   color: #4fe2ac;
   overflow: hidden;
@@ -767,7 +778,7 @@ width: 220px;
 
 
 .mask{
-	background-image: url("/images/work_mask.png");
+
 	background-position: center top;
 	background-repeat: no-repeat;
 	display: block;
@@ -1117,6 +1128,27 @@ margin: 0 auto;
 /* Portrait tablets and medium desktops */
 @media (min-width: 992px) and (max-width: 1199px) {
 
+.skaredaZena {
+left: 140px;
+}
+
+.peknaZena {
+left: -123px !important;
+}
+
+#getFancyText{
+top: 45px;
+	-webkit-transform: scale(0.9); 
+     -moz-transform: scale(0.5); 
+      -ms-transform: scale(0.9);
+       -o-transform: scale(0.9); 
+          transform: scale(0.9);
+-ms-filter: "progid:DXImageTransform.Microsoft.Matrix(M11=0.9, M12=0, M21=0, M22=0.9, SizingMethod='auto expand')";
+}
+
+
+
+
 }
 
 /* Portrait tablets and small desktops */
@@ -1137,44 +1169,104 @@ position: absolute;
 right: -94px;
 bottom: 50px !important;
 width: 304px;
-transform: scale(0.9);
+-webkit-transform: scale(0.9); 
+     -moz-transform: scale(0.9); 
+      -ms-transform: scale(0.9);
+       -o-transform: scale(0.9); 
+          transform: scale(0.9);
+-ms-filter: "progid:DXImageTransform.Microsoft.Matrix(M11=0.9, M12=0, M21=0, M22=0.9, SizingMethod='auto expand')";
 }
 
 .peknaZena {
-height: 356px;
-left: -227px;
-position: relative;
-/*top: 350px;*/
-width: 313px;
-z-index: 3;
-background-size: cover;
-top: -6px !important;
+left: -241px;
+top: 370px;
+-webkit-transform: scale(0.9); 
+     -moz-transform: scale(0.9); 
+      -ms-transform: scale(0.9);
+       -o-transform: scale(0.9); 
+          transform: scale(0.9);
+-ms-filter: "progid:DXImageTransform.Microsoft.Matrix(M11=0.9, M12=0, M21=0, M22=0.9, SizingMethod='auto expand')";
 }
 
-.skaredaZena {
-float: left;
-height: 517px;
-left: -12px;
-position: relative;
-top: -9px;
-width: 194px;
-margin-bottom: -130px;
-z-index: 4;
-height: 360px ;
-background-size: cover;
+.skaredaZena{
+	-webkit-transform: scale(0.9); 
+	-moz-transform: scale(0.9); 
+	-ms-transform: scale(0.9);
+	-o-transform: scale(0.9); 
+	transform: scale(0.9);
+	-ms-filter: "progid:DXImageTransform.Microsoft.Matrix(M11=0.9, M12=0, M21=0, M22=0.9, SizingMethod='auto expand')";
+	top: -17px;
+	left: -15px;
 }
 
-
-#getFancyText {
-transform: scale(0.7);
-width: 543px;
-right: -80px;
+#getFancyText{
+		-webkit-transform: scale(0.8); 
+	-moz-transform: scale(0.8); 
+	-ms-transform: scale(0.8);
+	-o-transform: scale(0.8); 
+	transform: scale(0.8);
+	-ms-filter: "progid:DXImageTransform.Microsoft.Matrix(M11=0.0, M12=0, M21=0, M22=0.8, SizingMethod='auto expand')";
 }
+
 
 }
 
 /* Landscape phones and portrait tablets */
 @media (max-width: 767px) {
+
+
+.peknaZena {
+left: -211px;
+top: 370px;
+-webkit-transform: scale(0.9); 
+     -moz-transform: scale(0.9); 
+      -ms-transform: scale(0.9);
+       -o-transform: scale(0.9); 
+          transform: scale(0.9);
+-ms-filter: "progid:DXImageTransform.Microsoft.Matrix(M11=0.9, M12=0, M21=0, M22=0.9, SizingMethod='auto expand')";
+}
+
+.skaredaZena{
+	-webkit-transform: scale(0.9); 
+	-moz-transform: scale(0.9); 
+	-ms-transform: scale(0.9);
+	-o-transform: scale(0.9); 
+	transform: scale(0.9);
+	-ms-filter: "progid:DXImageTransform.Microsoft.Matrix(M11=0.9, M12=0, M21=0, M22=0.9, SizingMethod='auto expand')";
+	top: -7px;
+	left: 15px;
+}
+
+#getFancyText{
+
+
+float: left;
+height: 189px;
+right: -60px;
+top: 45px;
+width: 544px;
+position: absolute;
+-webkit-transform: scale(0.6); 
+-moz-transform: scale(0.6); 
+-ms-transform: scale(0.6);
+-o-transform: scale(0.6); 
+transform: scale(0.6);
+-ms-filter: "progid:DXImageTransform.Microsoft.Matrix(M11=0.0, M12=0, M21=0, M22=0.6, SizingMethod='auto expand')";
+}
+
+.getFancyButtonBox {
+right: 74px;
+position: absolute;
+top: 265px;
+border: 4px solid #4fe2ac;
+-webkit-transform: scale(0.8); 
+-moz-transform: scale(0.8); 
+-ms-transform: scale(0.8);
+-o-transform: scale(0.8); 
+transform: scale(0.8);
+-ms-filter: "progid:DXImageTransform.Microsoft.Matrix(M11=0.0, M12=0, M21=0, M22=0.6, SizingMethod='auto expand')";
+}
+
 
 .nav-pills li a{
 	margin: 0px
@@ -1248,17 +1340,7 @@ display: none
 }
 
 
-.peknaZena {
-background: url("../../images/chick.png") repeat scroll 0 0 transparent;
-float: left;
-height: 356px !important;
-left: -206px !important;
-position: relative;
-width: 301px !important;
-z-index: 1;
-background-size: cover;
-top: 360px;
-}
+
 
 
 
@@ -1266,12 +1348,12 @@ top: 360px;
 .banerGetFancy {
 width: 100%;
 }
-
+/*
 #getFancyText {
 right: -49px;
 top: 34px;
 transform: scale(0.7);
-}
+}*/
 
 .odstavce .col-md-3 {
 text-align: left;
@@ -1302,6 +1384,10 @@ width: 330px;
 position: static !important;
 margin-top: -65px;
 margin-bottom: 100px;
+}
+
+.getFancyButton{
+	right: 17%;
 }
 
 

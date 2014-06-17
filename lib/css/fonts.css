@@ -45,3 +45,14 @@
     font-style: normal;
 
 }
+
+@font-face {
+    font-family: 'lobster';
+    src: url('../../fonts/lobster_1.4d-webfont.eot');
+    src: url('../../fonts/lobster_1.4d-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../../fonts/lobster_1.4d-webfont.woff') format('woff'),
+         url('../../fonts/lobster_1.4d-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}

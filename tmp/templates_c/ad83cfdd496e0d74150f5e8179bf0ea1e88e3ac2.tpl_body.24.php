@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.12, created on 2014-06-16 23:24:18
+<?php /* Smarty version Smarty-3.1.12, created on 2014-06-22 22:02:55
          compiled from "tpl_body:24" */ ?>
-<?php /*%%SmartyHeaderCode:681322370539f6082615557-09657823%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:193803792853a7366f3450b6-19382858%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     'ad83cfdd496e0d74150f5e8179bf0ea1e88e3ac2' => 
     array (
       0 => 'tpl_body:24',
-      1 => 1402833549,
+      1 => 1403467228,
       2 => 'tpl_body',
     ),
   ),
-  'nocache_hash' => '681322370539f6082615557-09657823',
+  'nocache_hash' => '193803792853a7366f3450b6-19382858',
   'function' => 
   array (
   ),
@@ -22,9 +22,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.12',
-  'unifunc' => 'content_539f6082644254_49749017',
+  'unifunc' => 'content_53a7366f36da67_08384361',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_539f6082644254_49749017')) {function content_539f6082644254_49749017($_smarty_tpl) {?><?php if (!is_callable('smarty_function_root_url')) include '/Applications/MAMP/htdocs/fancystudio/plugins/function.root_url.php';
+<?php if ($_valid && !is_callable('content_53a7366f36da67_08384361')) {function content_53a7366f36da67_08384361($_smarty_tpl) {?><?php if (!is_callable('smarty_function_root_url')) include '/Applications/MAMP/htdocs/fancystudio/plugins/function.root_url.php';
 ?>
     <body>
     <header>
@@ -59,8 +59,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 		<div class="baner-wrapper">
 		<div id="baner-color">
 			<div class="banerGetFancy container"> 
-                <div class="animSkareda" style="display:none"></div>
-                <div class="animPekna" style="display:none"></div>
+                <div class="animSkareda" style="display:none;bottom:390px;"></div>
+                <div class="animPekna" style="display:none;top:385px;"></div>
 				<div class="skaredaZena"></div>
 				<div class="peknaZena"></div>
 				<?php echo MleCMS::function_plugin(array('name'=>"block_uvodnyText"),$_smarty_tpl);?>

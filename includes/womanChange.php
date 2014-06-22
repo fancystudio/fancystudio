@@ -79,13 +79,22 @@ if($_COOKIE["womanIsChange"]){
   ?>
     <script type="text/javascript">
       $(".getFancyButton").one("click",function(){
-        $(".peknaZena").css("visibility","visible");
-        $(".skaredaZena").height($(".animSkareda").css("height"));
-        hideSkaredaZena();
-        $.post("ajax.php")
-          .done(function() {   
-          })
-          .fail(function() { console.log("error"); }); 
+    	  if (navigator.userAgent.match(/(iPod|iPhone|iPad|Android)/)) {
+    	  	$(".peknaZena").css("visibility","visible");
+    	  	$(".skaredaZena").height($(".animSkareda").height());
+    	  	$(".skaredaZena").addClass("skaredaTop");
+    	  	$(".skaredaZena").addClass("peknaTop");
+    	  	$(".getFancyButton").addClass("contactIsSet");
+    	  	peknaZenaIsSet = true;
+    	  }else{
+	        $(".peknaZena").css("visibility","visible");
+	        $(".skaredaZena").height($(".animSkareda").height());
+	        hideSkaredaZena();
+	        $.post("ajax.php")
+	          .done(function() {   
+	          })
+	          .fail(function() { console.log("error"); }); 
+    	  }
       }); 
     </script>
     <?php

@@ -354,13 +354,14 @@ top: 160px;
 	width: auto;
 	font-family: lobster;
 	min-height: 56px;
-
+  width:211px;
 }
 
 .getFancyButton{
   color: #4fe2ac;
   overflow: hidden;
   display: block;
+  position:absolute;
 }
 /* ----------------------------------------- lava lamp ------------------------------------------------------------------------- */
 .domov{

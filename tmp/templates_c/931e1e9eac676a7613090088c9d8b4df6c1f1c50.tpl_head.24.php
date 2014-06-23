@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 <?php /* Smarty version Smarty-3.1.12, created on 2014-06-23 20:05:07
+=======
+<?php /* Smarty version Smarty-3.1.12, created on 2014-06-23 17:48:27
+>>>>>>> FETCH_HEAD
          compiled from "tpl_head:24" */ ?>
 <?php /*%%SmartyHeaderCode:154246732753a736700f1149-40157047%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (

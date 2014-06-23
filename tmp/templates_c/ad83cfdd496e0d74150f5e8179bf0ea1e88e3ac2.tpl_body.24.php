@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.12, created on 2014-06-22 22:02:55
+<?php /* Smarty version Smarty-3.1.12, created on 2014-06-23 17:48:26
          compiled from "tpl_body:24" */ ?>
 <?php /*%%SmartyHeaderCode:193803792853a7366f3450b6-19382858%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'ad83cfdd496e0d74150f5e8179bf0ea1e88e3ac2' => 
     array (
       0 => 'tpl_body:24',
-      1 => 1403467228,
+      1 => 1403538504,
       2 => 'tpl_body',
     ),
   ),
@@ -15,14 +15,14 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
+  'version' => 'Smarty-3.1.12',
+  'unifunc' => 'content_53a7366f36da67_08384361',
   'variables' => 
   array (
     'lang_parent' => 0,
     'lang_locale' => 0,
   ),
   'has_nocache_code' => false,
-  'version' => 'Smarty-3.1.12',
-  'unifunc' => 'content_53a7366f36da67_08384361',
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_53a7366f36da67_08384361')) {function content_53a7366f36da67_08384361($_smarty_tpl) {?><?php if (!is_callable('smarty_function_root_url')) include '/Applications/MAMP/htdocs/fancystudio/plugins/function.root_url.php';
 ?>

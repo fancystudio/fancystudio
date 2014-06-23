@@ -1329,9 +1329,10 @@ height: auto
 
 .langSwitch {
 	position: relative;
-	right: 0px;
-	top: -43px;
-	z-index: 9999;
+right: -20px;
+top: -53px;
+z-index: 9999999;
+padding: 10px;
 }
 
 .lavaLampBottomStyle li.back {
@@ -1527,15 +1528,15 @@ top: 122px ;
 }
 
 #getFancyText {
-right: -110px;
-top: 4px;
+right: -119px;
+top: -25px;
 position: absolute;
--webkit-transform: scale(0.5);
--moz-transform: scale(0.5);
--ms-transform: scale(0.5);
--o-transform: scale(0.5);
-transform: scale(0.5);
--ms-filter: "progid:DXImageTransform.Microsoft.Matrix(M11=0.5, M12=0, M21=0, M22=0.5, SizingMethod='auto expand')";
+-webkit-transform: scale(0.45);
+-moz-transform: scale(0.45);
+-ms-transform: scale(0.45);
+-o-transform: scale(0.45);
+transform: scale(0.45);
+-ms-filter: "progid:DXImageTransform.Microsoft.Matrix(M11=0.45, M12=0, M21=0, M22=0.45, SizingMethod='auto expand')";
 }
 
 .getFancyButtonBox {
@@ -1562,6 +1563,17 @@ right: -20px;
    -moz-transition-timing-function: cubic-bezier(0.680, -0.550, 0.265, 1.550); 
      -o-transition-timing-function: cubic-bezier(0.680, -0.550, 0.265, 1.550); 
         transition-timing-function: cubic-bezier(0.680, -0.550, 0.265, 1.550); /* easeInOutBack */
+}
+
+.peknaTop{
+	top: -260px;
+	-webkit-transition: all 0.4s ease-in-out;
+-moz-transition: all 0.4s ease-in-out;
+-o-transition: all 0.4s ease-in-out;
+transition: all 0.4s ease-in-out; 
+-webkit-transition-delay: 400ms; /* Safari */
+    transition-delay: 400ms;
+
 }
 
 

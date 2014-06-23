@@ -23,7 +23,7 @@ if($_COOKIE["womanIsChange"]){
     ?>
     <style type="text/css">
     .getFancyButtonBox{
-      width:auto;
+      width:123px;
     }
     </style>
     <script type="text/javascript">
@@ -34,7 +34,7 @@ if($_COOKIE["womanIsChange"]){
     ?>
     <style type="text/css">
     .getFancyButtonBox{
-      width:auto;
+      width:123px;
     }
     </style>
     <script type="text/javascript">
@@ -57,7 +57,7 @@ if($_COOKIE["womanIsChange"]){
     ?>
     <style type="text/css">
     .getFancyButtonBox{
-      width:auto;
+      width:123px;
     }
     </style>
     <script type="text/javascript">
@@ -68,7 +68,7 @@ if($_COOKIE["womanIsChange"]){
     ?>
     <style type="text/css">
     .getFancyButtonBox{
-      width:auto;
+      width:123px;
     }
     </style>
     <script type="text/javascript">

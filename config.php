@@ -3,15 +3,15 @@
 # Documentation: /doc/CMSMS_config_reference.pdf
 #
 $config['dbms'] = 'mysql';
-//$config['db_hostname'] = 'mariadb55.websupport.sk:3310';
-//$config['db_username'] = 'devFancy';
-//$config['db_password'] = 'devFancy13';
-//$config['db_name'] = 'devFancy';
+$config['db_hostname'] = 'mariadb55.websupport.sk:3310';
+$config['db_username'] = 'devFancy';
+$config['db_password'] = 'devFancy13';
+$config['db_name'] = 'devFancy';
 
-$config['db_hostname'] = 'localhost';
-$config['db_username'] = 'root';
-$config['db_password'] = 'root';
-$config['db_name'] = 'fancylocal';
+//$config['db_hostname'] = 'localhost';
+//$config['db_username'] = 'root';
+//$config['db_password'] = 'root';
+//$config['db_name'] = 'fancylocal';
 
 $config['db_prefix'] = 'cms_';
 $config['timezone'] = 'Europe/Bratislava';

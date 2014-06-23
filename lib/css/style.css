@@ -358,10 +358,14 @@ top: 160px;
 }
 
 .getFancyButton{
-  color: #4fe2ac;
-  overflow: hidden;
-  display: block;
-  position:absolute;
+color: #4fe2ac;
+overflow: hidden;
+display: block;
+position: absolute;
+left: 20px;
+display: inline-block;
+width: 300px;
+
 }
 /* ----------------------------------------- lava lamp ------------------------------------------------------------------------- */
 .domov{

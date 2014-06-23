@@ -1328,9 +1328,10 @@ height: auto
 }
 
 .langSwitch {
-position: relative;
-right: 0px;
-top: -43px;
+	position: relative;
+	right: 0px;
+	top: -43px;
+	z-index: 9999;
 }
 
 .lavaLampBottomStyle li.back {
@@ -1462,7 +1463,13 @@ margin-bottom: 0px;
 }
 
 .next-btn, .prev-btn, .all-btn, .scrollToTop {
-transform: scale(0.7);
+
+-webkit-transform: scale(0.7); 
+     -moz-transform: scale(0.7); 
+      -ms-transform: scale(0.7);
+       -o-transform: scale(0.7); 
+          transform: scale(0.7);
+-ms-filter: "progid:DXImageTransform.Microsoft.Matrix(M11=0.7, M12=0, M21=0, M22=0.7, SizingMethod='auto expand')";
 }
 
 
@@ -1485,6 +1492,55 @@ bottom: 0px !important;
 
 }
 
+.skaredaZena{
+-webkit-transform: scale(0.6); 
+     -moz-transform: scale(0.6); 
+      -ms-transform: scale(0.6);
+       -o-transform: scale(0.6); 
+          transform: scale(0.6);
+-ms-filter: "progid:DXImageTransform.Microsoft.Matrix(M11=0.6, M12=0, M21=0, M22=0.6, SizingMethod='auto expand')";
+
+top: 32px;
+height: 457px !important;
+left: -35px;
+}
+
+.peknaZena {
+background: url("../../images/chick.png") repeat scroll 0 0 transparent;
+float: left;
+height: 356px !important;
+/* left: -206px !important; */
+position: relative;
+width: 301px !important;
+z-index: 1;
+background-size: cover;
+top: 380px;
+left: -75px !important;
+top: 122px ;
+
+-webkit-transform: scale(0.6); 
+     -moz-transform: scale(0.6); 
+      -ms-transform: scale(0.6);
+       -o-transform: scale(0.6); 
+          transform: scale(0.6);
+-ms-filter: "progid:DXImageTransform.Microsoft.Matrix(M11=0.6, M12=0, M21=0, M22=0.6, SizingMethod='auto expand')";
+}
+
+#getFancyText {
+right: -110px;
+top: 4px;
+position: absolute;
+-webkit-transform: scale(0.5);
+-moz-transform: scale(0.5);
+-ms-transform: scale(0.5);
+-o-transform: scale(0.5);
+transform: scale(0.5);
+-ms-filter: "progid:DXImageTransform.Microsoft.Matrix(M11=0.5, M12=0, M21=0, M22=0.5, SizingMethod='auto expand')";
+}
+
+.getFancyButtonBox {
+right: 10px;
+}
 
 
 }

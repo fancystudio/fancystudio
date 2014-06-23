@@ -83,7 +83,7 @@ if($_COOKIE["womanIsChange"]){
     	  	$(".peknaZena").css("visibility","visible");
     	  	$(".skaredaZena").height($(".animSkareda").height());
     	  	$(".skaredaZena").addClass("skaredaTop");
-    	  	$(".skaredaZena").addClass("peknaTop");
+    	  	$(".peknaZena").addClass("peknaTop");
     	  	$(".getFancyButton").addClass("contactIsSet");
     	  	peknaZenaIsSet = true;
     	  }else{

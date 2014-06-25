@@ -1120,13 +1120,39 @@ max-width: 960px;
 margin: 0 auto;
 }
 
+.skaredaTop{
+	top: 285px;
+	-webkit-transition: all 500ms cubic-bezier(0.680, 0, 0.265, 1); /* older webkit */
+-webkit-transition: all 900ms cubic-bezier(0.680, -0.550, 0.265, 1.550); 
+   -moz-transition: all 900ms cubic-bezier(0.680, -0.550, 0.265, 1.550); 
+     -o-transition: all 900ms cubic-bezier(0.680, -0.550, 0.265, 1.550); 
+        transition: all 900ms cubic-bezier(0.680, -0.550, 0.265, 1.550); /* easeInOutBack */
 
+-webkit-transition-timing-function: cubic-bezier(0.680, 0, 0.265, 1); /* older webkit */
+-webkit-transition-timing-function: cubic-bezier(0.680, -0.550, 0.265, 1.550); 
+   -moz-transition-timing-function: cubic-bezier(0.680, -0.550, 0.265, 1.550); 
+     -o-transition-timing-function: cubic-bezier(0.680, -0.550, 0.265, 1.550); 
+        transition-timing-function: cubic-bezier(0.680, -0.550, 0.265, 1.550); /* easeInOutBack */
+}
+
+.peknaTop{
+	top: -260px;
+	-webkit-transition: all 0.4s ease-in-out;
+-moz-transition: all 0.4s ease-in-out;
+-o-transition: all 0.4s ease-in-out;
+transition: all 0.4s ease-in-out; 
+-webkit-transition-delay: 400ms; /* Safari */
+    transition-delay: 400ms;
+
+}
 
 
 
 
 /* Large desktops and laptops */
 @media (min-width: 1200px) {
+
+
 
 }
 
@@ -1411,6 +1437,33 @@ margin-bottom: 100px;
 
 .getFancyButton{
 	right: 17%;
+}
+
+
+.skaredaTop{
+	top: 285px;
+	-webkit-transition: all 500ms cubic-bezier(0.680, 0, 0.265, 1); /* older webkit */
+-webkit-transition: all 900ms cubic-bezier(0.680, -0.550, 0.265, 1.550); 
+   -moz-transition: all 900ms cubic-bezier(0.680, -0.550, 0.265, 1.550); 
+     -o-transition: all 900ms cubic-bezier(0.680, -0.550, 0.265, 1.550); 
+        transition: all 900ms cubic-bezier(0.680, -0.550, 0.265, 1.550); /* easeInOutBack */
+
+-webkit-transition-timing-function: cubic-bezier(0.680, 0, 0.265, 1); /* older webkit */
+-webkit-transition-timing-function: cubic-bezier(0.680, -0.550, 0.265, 1.550); 
+   -moz-transition-timing-function: cubic-bezier(0.680, -0.550, 0.265, 1.550); 
+     -o-transition-timing-function: cubic-bezier(0.680, -0.550, 0.265, 1.550); 
+        transition-timing-function: cubic-bezier(0.680, -0.550, 0.265, 1.550); /* easeInOutBack */
+}
+
+.peknaTop{
+	top: -260px;
+	-webkit-transition: all 0.4s ease-in-out;
+-moz-transition: all 0.4s ease-in-out;
+-o-transition: all 0.4s ease-in-out;
+transition: all 0.4s ease-in-out; 
+-webkit-transition-delay: 400ms; /* Safari */
+    transition-delay: 400ms;
+
 }
 
 

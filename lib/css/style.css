@@ -103,8 +103,8 @@ header.smaller{
 }
 
 .skaredaZena{
-   background: url("../../images/ohava.png") repeat scroll 0 0 transparent;
-    clear: both;
+background: url("../../images/ohava.png") repeat scroll 0 0 transparent;
+ clear: both;
 float: left;
 height: 517px;
 left: 220px;
@@ -1571,7 +1571,7 @@ height: 356px !important;
 /* left: -206px !important; */
 position: relative;
 width: 301px !important;
-z-index: 1;
+z-index: 3;
 background-size: cover;
 top: 380px;
 left: -75px !important;

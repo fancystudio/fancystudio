@@ -1213,7 +1213,7 @@ width: 304px;
 }
 
 .peknaZena {
-left: -241px;
+left: -241px !important;
 top: 370px;
 -webkit-transform: scale(0.9); 
      -moz-transform: scale(0.9); 
@@ -1251,8 +1251,6 @@ top: 370px;
 
 
 .peknaZena {
-left: -211px;
-top: 370px;
 -webkit-transform: scale(0.9); 
      -moz-transform: scale(0.9); 
       -ms-transform: scale(0.9);
@@ -1387,7 +1385,7 @@ position: relative;
 width: 301px !important;
 z-index: 1;
 background-size: cover;
-top: 380px;
+top: 399px;
 }
 
 
@@ -1573,9 +1571,8 @@ position: relative;
 width: 301px !important;
 z-index: 3;
 background-size: cover;
-top: 380px;
+top: 123px;
 left: -75px !important;
-top: 122px ;
 
 -webkit-transform: scale(0.6); 
      -moz-transform: scale(0.6); 

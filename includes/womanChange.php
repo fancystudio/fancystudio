@@ -17,6 +17,19 @@ if($_COOKIE["womanIsChange"]){
     .skaredaZena{
       visibility:hidden;
     } 
+    /* Portrait tablets and small desktops */
+	@media (min-width: 768px) and (max-width: 991px) {
+    	.peknaZena {
+			top: -16px;
+		}
+    }
+    /* Landscape phones and smaller */
+	@media (max-width: 480px) {
+		.peknaZena {
+			top: -262px;
+			background-size: cover;
+		}
+    }
   </style>
   <?php
   if($contentobj->Name() == "Kontakt"){
@@ -79,22 +92,6 @@ if($_COOKIE["womanIsChange"]){
   ?>
     <script type="text/javascript">
       $(".getFancyButton").one("click",function(){
-    	  if (navigator.userAgent.match(/(iPod|iPhone|iPad|Android)/)) {
-//    	  	$(".peknaZena").css("visibility","visible");
-//    	  	$(".skaredaZena").height($(".animSkareda").height());
-//    	  	$(".skaredaZena").addClass("skaredaTop");
-//    	  	$(".peknaZena").addClass("peknaTop");
-//    	  	$(".getFancyButton").addClass("contactIsSet");
-//    	  	peknaZenaIsSet = true;
-
-    		  $(".peknaZena").css("visibility","visible");
-  	        $(".skaredaZena").height($(".animSkareda").height());
-  	        hideSkaredaZena();
-  	        $.post("ajax.php")
-  	          .done(function() {   
-  	          })
-  	          .fail(function() { console.log("error"); }); 
-    	  }else{
 	        $(".peknaZena").css("visibility","visible");
 	        $(".skaredaZena").height($(".animSkareda").height());
 	        hideSkaredaZena();
@@ -102,7 +99,6 @@ if($_COOKIE["womanIsChange"]){
 	          .done(function() {   
 	          })
 	          .fail(function() { console.log("error"); }); 
-    	  }
       }); 
     </script>
     <?php
